@@ -1,0 +1,1617 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="./Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="./Content/main/main.css" rel="stylesheet" />
+    <script src="./Script/js/jquery-2.1.4.js"></script>
+    <script src="./Script/js/bootstrap.js"></script>
+    <style>
+        .right {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .no-pad-l {
+            padding-left: 0px;
+        }
+
+        .outer-box {
+            border: 5px solid #000;
+            border-radius: 10px;
+            min-height: 600px;
+            margin-bottom: 15px;
+        }
+
+        .header {
+            min-height: 25px;
+            /*margin-bottom: 15px;*/
+            background: #000;
+            line-height: 25px;
+            margin-top: -3px;
+        }
+
+        .hdr-title {
+            color: #fff;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .brd-right {
+            border-right: 3px solid #fff;
+        }
+
+        .fnt-11 {
+            font-size: 11px;
+        }
+
+        .m-t-15 {
+            margin-top: 15px;
+        }
+
+        .lft-corner-box {
+            height: 165px;
+            border-left: 3px solid #000;
+            border-bottom: 3px solid #000;
+        }
+
+        .col3-diveder {
+            border-right: 3px solid #000;
+            height: 160px;
+        }
+
+            .col3-diveder:last-child {
+                border-right: none;
+            }
+
+        .col1-divider {
+            border-top: 3px solid #000;
+            min-height: 100px;
+        }
+
+        .hdr-box-top {
+            height: 25px;
+            background: #dedcdc;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+        }
+
+        .control-sep1 {
+            border-bottom: 1px solid #000;
+            height: 30px;
+            line-height: 20px;
+        }
+
+        .control-sep {
+            border-bottom: 1px solid #000;
+            height: 23px;
+            line-height: 23px;
+        }
+
+            .control-sep:last-child {
+                border-bottom: none;
+            }
+
+        .cntrl-l-sep {
+            border-right: 1px solid #000;
+            margin-left: -15px;
+            height: 30px;
+        }
+
+        .control-sep-2 {
+            border-bottom: 1px solid #000;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .form-control:hover {
+            border: 1px solid #000 !important;
+            background: transparent;
+        }
+
+        .form-control:focus {
+            background: transparent;
+        }
+        @media (min-width:768px) and (max-width:1024px) {
+          
+            .col-lg-1
+            {
+                   width: 10%;
+            }    .col-lg-2{
+    width: 18%;
+            }
+            .col-lg-3{
+                width: 25%!important;
+                border-right:none;
+                font-size:8px;
+            }
+            .col-lg-4{
+                width:30%;;
+            }
+            .col-lg-5{
+                width:33%;
+            }
+            .col-lg-6{
+                width:33%;
+            }
+                                        .col-lg-7{
+width:33%;
+            }
+      
+                      .col-lg-8{
+width:33%;
+            }
+
+                                .col-lg-12{
+
+                                }                                .col-md-1{
+ width: 16%;
+                                }
+                              
+                                .col-md-3{
+width:32%;
+                                }
+
+  
+          .col-md-2{
+           width:10%;
+       }
+  
+       .col-md-4{
+          width: 24%;
+       }
+         .col-md-5{
+               width: 25%;
+       }
+         .col-md-6{
+
+         }
+         .col-md-7{
+
+
+         }
+         .col-md-8{
+             width:10%;
+         }
+       .col-md-12
+       {
+               width: 100% !important;
+              
+       }
+          .col-xs-1{
+          width:8%;
+      }
+       .col-xs-2{
+width:36%;
+       }
+     
+    
+      .col-xs-2{
+          width:28% !important;
+      }
+       .col-xs-3{
+           width: 10%;
+
+       }     
+   .col-xs-3 
+      {
+          width: 18%!important  ;
+          border-right:none;
+      } 
+      .col-xs-4{
+width:33%;
+      }
+      .col-xs-6{
+         
+      width: 57%;
+      }
+      .col-sm-1{
+          width:;
+      }
+      .col-sm-2{
+
+          width:;
+      }
+      .col-sm-3
+      {
+          width:10%;
+      }
+      .col-sm-4
+      {
+
+      }
+      .col-sm-5
+      {
+
+      }
+      .col-sm-6{
+
+      }
+      .col-sm-8{
+          width:15%;
+      }
+   
+        }
+        
+       
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="=col-lg-10 text-right">
+                <h4> MEDICATION PROFILE</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 no-pad-l  outer-box " style="padding-right:0px;m">
+
+
+                <div class="=row">
+                    <div class="col-lg-2  left m-t-15">
+                        <label for="Patient Name">Patient Name</label>
+                    </div>
+
+
+                    <div class="col-lg-5   form-group  left m-t-15">
+                        <input type="text" class="form-control" name="ACCOUNT_NAME" />
+                    </div>
+
+                    <div class="col-lg-2  no-pad-l left m-t-15 ">
+                        <label for="ID #">ID #</label>
+                    </div>
+                    <div class="col-lg-3  no-pad-l left m-t-15">
+                        <input type="text" class="form-control" />
+                    </div>
+
+
+                </div>
+                <div class="=row">
+                    <div class="col-lg-12 no-pad-l  form-group left">
+                        <div class="col-lg-2  left ">
+                            <label for="Patient Name"> Pharmacy Name</label>
+                        </div>
+
+                        <div class="col-lg-5   left  form-group">
+                            <input type="text" class="form-control" name="PHARMACY" />
+                        </div>
+                        <div class="col-lg-1 no-pad-l left" name="PHONE_PHAR">
+                            <label for="Patient Name"> Phone #</label>
+                        </div>
+                        <div class="col-lg-1  no-pad-l left ">
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="col-lg-2 no-pad-l left  ">
+                            <label for="Patient Name">FAX #</label>
+                        </div>
+                        <div class="col-lg-1 no-pad-l left form-group  ">
+                            <input type="text" class="form-control" name="FAX" />
+                        </div>
+                    </div>
+                </div>
+                <div class="=row">
+                    <div class="col-md-12  form-group left no-pad-l" style="padding-right:0px;">
+                        <div class="col-lg-1  left ">
+                            <label for="Patient Name">Height</label>
+                        </div>
+                        <div class="col-md-1  left">
+                            <input type="text" class="form-control" name="HEIGHT" />
+                        </div>
+                        <div class="col-lg-1  left ">
+                            <label for="Patient Name"> Weight</label>
+                        </div>
+                        <div class="col-md-1 left">
+                            <input type="text" class="form-control" name="WEIGHT" />
+                        </div>
+                        <div class="col-md-3  left" style="">
+                            <label for="Patient Name">Type of venous access (if applicable)</label>
+                        </div>
+                        <div class="col-md-5  left">
+                            <input type="text" class="form-control" name="VENOUS" />
+                        </div>
+                    </div>
+                </div>
+                <div class="=row">
+                    <div class="col-lg-12 no-pad-l left ">
+                        <div class="col-md-2  left ">
+                            <label for="Patient Name"> Allergies:</label>
+                        </div>
+                        <div class="col-lg-3 left ">
+                            <input id="checkbox" type="checkbox" />
+                            <label for="checkbox "> None known</label>
+                        </div>
+
+
+                        <div class="col-lg-6  left ">
+                            <input id="checkbox" type="checkbox" />
+                            <label for="checkbox ">   Yes (if yes, list and explain e.g. rash, hives, swelling)</label>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="=row">
+                    <div class="col-lg-12 no-pad-l left ">
+                        <input type="text" class="form-control">
+                        </div>
+</div>
+
+                        <div class="=row ">
+
+                            <div class="col-md-3 m-t-15  form-group left ">
+                                <label for="Patient Name"> Medications administered by:</label>
+                            </div>
+                            <div class="col-lg-1  m-t-15 left  ">
+                                <input type="checkbox" class="form-group" name="MED_SELF" />          <label for="Patient Name">Self </label>
+                            </div>
+                            <div class="col-lg-2 no-pad-l left m-t-15 ">
+                                <input type="checkbox" class="form-group" name="MED_CARE" /><label for="Patient Name">Caregiver</label>
+                            </div>
+                            <div class="col-lg-1 no-pad-l left m-t-15 ">
+                                <input type="checkbox" class="form-group" name="MED_FAM" /><label for="Patient Name">Family</label>
+                            </div>
+                            <div class="col-lg-1 no-pad-l m-t-15  left">
+                                <input type="checkbox" class="form-group" name="MED_RN" /> <label for="Patient Name">RN</label>
+                            </div>
+                            <div class="col-lg-1 no-pad-l left  m-t-15">
+                                <input type="checkbox" class="form-group" name="MED_OTH" /> <label for="Patient Name"> Other</label>
+                            </div>
+                            <div class="col-sm-3 no-pad-l left m-t-15">
+                                <input type="text" class="form-control" name="MED_OTH" />
+                            </div>
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-lg-12  form-group  left" ">
+                                <div class="col-xs-3 no-pad-l left form-group ">
+                                    <label for="Patient Name">  Mediplanner filled:</label>
+                                </div>
+                                <div class="col-xs-1 no-pad-l left ">
+                                    <input type="checkbox" class="form-group " /> <label for="Patient Name">Yes</label>
+                                </div>
+                                <div class="col-xs-1 no-pad-l left ">
+                                    <input type="checkbox" class="form-group " /> <label for="Patient Name">No</label>
+                                </div>
+                                <div class="col-lg-2 no-pad-l  left ">
+                                    <label for="Patient Name"> If yes, by whom</label>
+                                </div>
+                                <div class="col-lg-2 no-pad-l left ">
+                                    <input type="text" class="form-control" name="WHOM" />
+                                </div>
+                                <div class="col-lg-1 no-pad-l left ">
+                                    <label for="Patient Name"> How often</label>
+                                </div>
+                                <div class="col-lg-2 no-pad-l left ">
+                                    <input type="text" class="form-control" name="OFTEN" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="=row">
+                            <div class="col-lg-12  form-group  ">
+                                <div class="col-md-4 no-pad-l left  form-group">
+                                    <label for="Patient Name"> Hospice staff orders medications:</label>
+                                </div>
+                                <div class="col-md-1 no-pad-l left  ">
+                                    <input type="checkbox" class="form-group" /> <label for="Patient Name">Yes</label>
+                                </div>
+                                <div class="col-md-1 no-pad-l left ">
+                                    <input type="checkbox" class="form-group" /><label for="Patient Name">No</label>
+                                </div>
+                                <div class="col-md-2 no-pad-l left  ">
+                                    <input type="checkbox" class="form-group" />  <label for="Patient Name">Other</label>
+                                </div>
+                                <div class="col-lg-4 no-pad-l ">
+                                    <input type="text" class="form-control" />
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l header hdr-title  " style="padding-left:0px;padding-right:0px;font-size:15px;">
+                                MEDICATIONS (includes all prescription, O.T.C. and home remedies)<br />
+                                *medications are p.o. unless specified otherwise
+
+
+                            </div>
+                        </div>
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l hdr-box-top  control-sep1  " style="height:64px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;border-right:solid">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:64px;text-align:center;padding-left:0px;padding-right:0px;">
+                                            <label for="Patient Name"> Start</label> <br /><label for="Date">  Date</label>
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:64px;text-align:center;padding-left:0px;padding-right:0px;width:68px">
+                                            <label for="Stop"> Stop</label><br /> <label for="Date">Date</label>
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l left  " style="border-right:solid;height:64px;text-align:center;padding-left:5px;padding-right:0px;width:48px;font-size:11px;font-weight:bold">
+                                            <label for="<✓ If"> ✓ If </label><br /><label for="Hospice">Hospice</label><br /><label for="pays">Pays</label>
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l left  " style="text-align:center;padding-left:0px;padding-right:0px;height:60px;">
+
+                                            <label for="(N)ew">(N)ew</label>    <br />
+                                            <label for="(C)hanged">(C)hanged</label> <br />
+                                            <label for="(O)ngoing"> (O)ngoing</label>
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l left " style="border-right:solid;height:64px;text-align:center;padding-top:20px">
+                                    <label for="Medication and Dose">  Medication and Dose</label>
+
+                                </div>
+                                <div class="col-lg-3 no-pad-l left  " style="text-align:center">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left  " style="border-right:solid;height:64px;text-align:center;padding-top:20px">
+                                            <label for=" Route"> Route</label>
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left " style="border-right:solid;height:64px;padding-top:20px ">
+                                            <label for=""></label>      Frequency
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l left   ">
+
+                                    <div class="col-md-3 no-pad-l  left " style="border-right:solid;height:64px;text-align:center">
+                                        <label for="Instructed">Instructed</label> <br />
+                                        <label for="(Y)es">(Y)es</label><br />
+                                        <label for="(N)o">(N)o</label>
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l  left " style="border-right:solid;height:64px;text-align:center">
+                                        <label for="Pill Count">Pill Count</label>       <br />  <label for="If">If</label> <br /> <label for="Applicable">Applicable</label>
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l left  " style="text-align:center;padding-top:20px">
+                                        <label for="Class">Class</label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l   " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_A_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_A_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l   left" style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l  left " style="padding-left:18px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+
+                                    <input type="text" class="form-control" name="ME_A_MED" />
+                                </div>
+                                <div class="col-lg-3 no-pad-l  left " style="text-align:center;">
+                                    <div class="col-xs-12 no-pad-l left " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_A_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l  left " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_A_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l left  ">
+
+                                    <div class="col-md-3 no-pad-l   left " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y  ">Y  </label>    <input type="checkbox" class="form-group" style="width:20px" name="ME_A_INST" /><label for="N ">N </label>  <input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l   left" style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_A_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_A_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l   left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l  left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_B_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_B_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l  left" style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_B_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 no-pad-l  left " style="padding-left:18px; padding-top:8px  ;text-align:center;border-right:solid;height:50px">
+                                    <input type="text" class="form-control" name="ME_B_MED" />
+
+                                </div>
+                                <div class="col-lg-3 no-pad-l  left " style="height:40px;text-align:center">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_B_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left  " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_B_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l left  ">
+
+                                    <div class="col-md-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y  ">Y  </label>       <input type="checkbox" class="form-group" style="width:20px" name="ME_B_INST" /><label for="N">N </label>  <input type="checkbox" class="form-group" name="ME_B_INST" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l left " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_B_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_B_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1 " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l" style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_C_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_C_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_C_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l  left " style="padding-left:18px; padding-top:8px ;text-align:center;border-right:solid;height:50px">
+
+                                    <input type="text" class="form-control" name="ME_C_MED" />
+                                </div>
+                                <div class="col-lg-3 no-pad-l  left " style="text-align:center">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_C_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left  " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_C_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l left  ">
+
+                                    <div class="col-md-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y  ">Y  </label>   <input type="checkbox" class="form-group" style="width:20px" /><label for="N "> N</label>  <input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l left  " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_C_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_C_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l left" style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_D_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_D_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_D_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l left  " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 no-pad-l " style="padding-left:18px; padding-top:8px ;text-align:center;border-right:solid;height:50px">
+
+                                    <input type="text" class="form-control" name="ME_D_MED" />
+                                </div>
+                                <div class="col-lg-3 no-pad-l  left " style="text-align:center">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_D_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left  " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_D_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l  left  ">
+
+                                    <div class="col-md-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y  ">Y  </label>     <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label>  <input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l left  " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" />
+                                    </div>
+                                    <div class="col-lg-3 no-pad-l" style="padding-top:8px;padding-left:9px">
+                                        <input type="text" class="form-control" name="ME_D_CLASS" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l left" style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l left " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_E_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_E_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_E_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l left  " style="padding-left:18px; padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                    <input type="text" class="form-control" name="ME_E_MED" />
+
+                                </div>
+                                <div class="col-lg-3 no-pad-l left  " style="height:300px;text-align:center">
+                                    <div class="col-xs-12 no-pad-l " style="padding-left:0px;padding-right:0px;">
+
+                                        <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_E_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left" style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_E_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l  left ">
+
+                                    <div class="col-md-3 no-pad-l left" style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y">Y</label>  <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l left " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_E_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l left  " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_E_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1 " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l left " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l   " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_F_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_F_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_F_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l left " style="padding-left:18px; padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                    <input type="text" class="form-control" name="ME_F_MED" />
+
+                                </div>
+                                <div class="col-lg-3 no-pad-l left left " style="height:40px;text-align:center">
+                                    <div class="col-xs-12 no-pad-l" style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_F_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_F_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l  left ">
+
+                                    <div class="col-md-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y">Y</label>  <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l  left " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_F_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" style="padding-top:8px;padding-left:16px" name="ME_E_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l left  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_G_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_G_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l left  " style="padding-left:18px; padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                    <input type="text" class="form-control" name="ME_G_MED" />
+
+                                </div>
+                                <div class="col-lg-3 no-pad-l left " style="height:300px;text-align:center">
+                                    <div class="col-xs-12 no-pad-l " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_G_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l left " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_G_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l  left">
+
+                                    <div class="col-md-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y">Y</label>   <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l left " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_G_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_G_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                    <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-3 no-pad-l   " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_H_START" />
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_H_STOP" />
+                                        </div>
+                                        <div class="col-xs-2 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" name="ME_H_HOSP" />
+                                        </div>
+                                        <div class="col-xs-4 no-pad-l left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                            <input type="checkbox" class="form-group" style="width:20px" /> <label for="N">N</label><input type="checkbox" class="form-group" /><label for="C">C</label>
+                                            <input type="checkbox" class="form-group" style="width:20px" /><label for="O">O</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-3 no-pad-l  left " style="padding-left:18px; padding-top:8px;text-align:center;border-right:solid;height:50px">
+
+                                    <input type="text" class="form-control" name="ME_H_MED" />
+                                </div>
+                                <div class="col-lg-3 no-pad-l left  " style="height:300px;text-align:center">
+                                    <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:8px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_H_RT" />
+                                        </div>
+                                        <div class="col-xs-8 no-pad-l  left " style="padding-top:8px;padding-left:12px;border-right:solid;height:50px">
+                                            <input type="text" class="form-control" name="ME_H_FRQ" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 no-pad-l left  ">
+
+                                    <div class="col-md-3 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-top:15px">
+                                        <label for="Y">Y</label> <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" />
+                                    </div>
+                                    <div class="col-lg-6 no-pad-l  left " style="padding-left:9px;padding-top:8px;text-align:center;border-right:solid;height:50px">
+                                        <input type="text" class="form-control" name="ME_H_PILL" />
+                                    </div>
+
+                                    <div class="col-lg-3 no-pad-l left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                        <input type="text" class="form-control" name="ME_H_CLASS" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l header hdr-title left " style="padding-left:0px;padding-right:0px; ">
+                                <label for="OXYGEN">  OXYGEN</label>
+
+
+
+
+                            </div>
+
+                            <div class="=row">
+                                <div class="col-md-12 no-pad-l   control-sep1 left " style="height:50px;padding-left:0px;padding-right:0px;">
+                                    <div class="col-lg-3 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-12 no-pad-l left " style="padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-3 no-pad-l   " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:12px">
+                                                <input type="text" class="form-control" name="ME_I_START" />
+                                            </div>
+
+                                            <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:12px">
+                                                <input type="text" class="form-control" name="ME_I_STOP" />
+                                            </div>
+                                            <div class="col-xs-2 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:12px">
+                                                <input type="checkbox" class="form-group" name="ME_I_HOSP" />
+                                            </div>
+                                            <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:15px">
+                                                <input type="checkbox" class="form-group" style="width:20px" name="ME_I_STAT" /><label for="N">N</label><input type="checkbox" class="form-group" name="ME_I_STAT" /><label for="C">C</label>
+                                                <input type="checkbox" class="form-group" style="width:20px" name="ME_I_STAT" /><label for="O">O</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-3 no-pad-l   left" style="border-right:solid;height:50px;text-align:center">
+                                        <div class="row">
+                                            <div class="col-lg-6  left" style="padding-top:10px">
+                                                <label for="Oxygen">  Oxygen</label>       <input type="text" class="form-control left" style="width:40px" name="ME_I_OXY" />
+                                            </div> <div class="col-lg-6  left" style="padding-top:10px">
+                                                <label for="LPM"> LPM</label>   <input type="text" class="form-control left" style="width:40px" name="ME_I_LPM" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center">
+                                        <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:60px;text-align:center">
+                                                <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label> <input type="checkbox" class="form-group" /><label for="Trach">Trach</label>
+                                                <input type="checkbox" class="form-group" style="width:20px" /><label for="Mask">Mask</label>
+                                            </div>
+                                            <div class="col-xs-8 no-pad-l  left " style="padding-top:10px">
+                                                <input type="checkbox" class="form-group" style="width:20px" /><label for="PRN">PRN</label> <input type="checkbox" class="form-group" /><label for="Cont.">Cont.</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 no-pad-l  left ">
+
+                                        <div class="col-md-3 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-top:10px">
+                                            <label for="Y">Y</label>       <input type="checkbox" class="form-group" style="width:20px" name="ME_I_INST" /><label for="N">N</label> <input type="checkbox" class="form-group" name="ME_I_INST" />
+                                        </div>
+                                        <div class="col-lg-6 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:9px;padding-top:8px">
+                                            <input type="text" class="form-control " style="width:120px" name="ME_I_PILL" />
+                                        </div>
+
+                                        <div class="col-lg-3 no-pad-l  left " style="text-align:center;padding-left:9px;padding-top:8px">
+                                            <input type="text" class="form-control" name="ME_I_CLASS" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l header hdr-title  left" style="padding-left:0px;padding-right:0px; ">
+                                <label for="INFUSION FLUSHES">INFUSION FLUSHES</label>
+
+
+
+
+                            </div>
+
+                            <div class="=row">
+                                <div class="col-md-12 no-pad-l   control-sep1  left" style="height:30px;padding-left:0px;padding-right:0px;">
+                                    <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;">
+                                        <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;padding-top:3px">
+                                                <input type="text" class="form-control" name="ME_J_START" />
+                                            </div>
+
+                                            <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:3px">
+                                                <input type="text" class="form-control" name="ME_J_STOP" />
+                                            </div>
+                                            <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:3px">
+                                                <input type="checkbox" class="form-group" name="ME_J_HOSP" />
+                                            </div>
+                                            <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+                                                <input type="checkbox" class="form-group" style="width:20px" name="ME_J_STAT" /><label for="N">N</label><input type="checkbox" class="form-group" name="ME_J_STAT" /><label for="C">C</label>
+                                                <input type="checkbox" class="form-group" style="width:20px" name="ME_J_STAT" /><label for="O">O</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-3 no-pad-l   left" style="border-right:solid;height:30px;text-align:center">
+
+                                        <div class="row">
+                                            <div class="col-lg-5  left" style="font-size:13px">
+                                                <label for=" Normal saline">  Normal saline</label>
+                                            </div>
+                                            <div class="col-lg-3  left" style="">
+
+                                            </div>
+                                            <div class="col-lg-4  left" style="padding-top:4px">
+                                                <label for="ml">ml</label>       <input type="text" class="form-control left" style="width:40px" name="ME_J_ML" />
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                        <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                <label for="IV"> IV</label>
+                                            </div>
+                                            <div class="col-xs-8 no-pad-l  left " style="padding-left:0px;padding-top:2px;padding-right:0px">
+                                                <input type="text" class="form-control" name="ME_J_FRQ" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 no-pad-l  left ">
+
+                                        <div class="col-md-3 no-pad-l  left  " style="border-right:solid;height:30px;text-align:center">
+                                            <label for="Y">Y</label>                  <input type="checkbox" class="form-group" style="width:20px" name="ME_J_INST" />  <label for="N">N</label><input type="checkbox" class="form-group" name="ME_G_INST" />
+                                        </div>
+                                        <div class="col-lg-6 no-pad-l  left " style="border-right:solid;height:60px;text-align:center">
+                                            <input type="text" class="form-control" name="ME_J_PILL" />
+                                        </div>
+
+                                        <div class="col-lg-3 no-pad-l   left" style="text-align:center">
+                                            <input type="text" class="form-control" name="ME_J_CLASS" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="=row">
+                                    <div class="col-md-12 no-pad-l   control-sep1  left" style="height:30px;padding-left:0px;padding-right:0px;">
+                                        <div class="col-lg-3 no-pad-l   left" style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                                <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;padding-top:3px">
+                                                    <input type="text" class="form-control" name="ME_K_START" />
+                                                </div>
+
+                                                <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:3px">
+                                                    <input type="text" class="form-control" name="ME_K_STOP" />
+                                                </div>
+                                                <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:3px">
+                                                    <input type="checkbox" class="form-group" name="ME_K_HOSP" />
+                                                </div>
+                                                <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+                                                    <input type="checkbox" class="form-group" style="width:20px" name="ME_K_STAT" /><label for="N">N</label><input type="checkbox" class="form-group" name="ME_K_STAT" /><label for="C">C</label>
+                                                    <input type="checkbox" class="form-group" style="width:20px" name="ME_K_STAT" /><label for="O">O</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l   left" style="border-right:solid;height:60px;text-align:center">
+                                            <div class="row">
+                                                <div class="col-lg-3  left" style="font-size:13px;">
+                                                    <label for="Heparin"> Heparin</label>
+                                                </div>
+                                                <div class="col-lg-5  left" style="padding-top:4px">
+                                                    <input type="text" class="form-control left" style="width:40px;padding-top:4px" /><label for="unit/mL">unit/mL</label>
+                                                </div>
+                                                <div class="col-lg-4  left" style="padding-top:4px">
+                                                    <input type="text" class="form-control left" style="width:40px;" name="ME_K_ML" /><label for="ml">ml</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                            <div class="col-xs-12 no-pad-l  left" style="padding-left:0px;padding-right:0px;">
+                                                <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                    <label for="IV"> IV</label>
+                                                </div>
+                                                <div class="col-xs-8 no-pad-l  left " style="padding-left:0px;padding-right:0px">
+                                                    <input type="text" class="form-control" name="ME_K_FRQ" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 no-pad-l  left ">
+
+                                            <div class="col-md-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                Y  <input type="checkbox" class="form-group" style="width:20px" name="ME_H_INST" />N<input type="checkbox" class="form-group" name="ME_H_INST" />
+                                            </div>
+                                            <div class="col-lg-6 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                <input type="text" class="form-control" name="ME_K_PILL" />
+                                            </div>
+
+                                            <div class="col-lg-3 no-pad-l  left " style="text-align:center">
+                                                <input type="text" class="form-control" name="ME_K_CLASS" />
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="=row">
+                                    <div class="col-md-12 no-pad-l   control-sep1  left" style="height:30px;padding-left:0px;padding-right:0px;">
+                                        <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;">
+                                            <div class="col-xs-12 no-pad-l left " style="padding-left:0px;padding-right:0px;">
+                                                <div class="col-xs-3 no-pad-l   " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;padding-top:3px">
+                                                    <input type="text" class="form-control" name="ME_L_START" />
+                                                </div>
+
+                                                <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:0px;padding-right:0px;width:68px;padding-top:3px">
+                                                    <input type="text" class="form-control" name="ME_L_STOP" />
+                                                </div>
+                                                <div class="col-xs-2 no-pad-l  left " style="border-right:solid;height:30px;text-align:center;padding-left:5px;padding-right:0px;width: 48px;padding-top:3px">
+                                                    <input type="checkbox" class="form-group" name="ME_L_HOSP" />
+                                                </div>
+                                                <div class="col-xs-4 no-pad-l  left " style="text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+                                                    <input type="checkbox" class="form-group" style="width:20px" name="ME_L_STAT" /><label for="N">N</label><input type="checkbox" class="form-group" name="ME_L_STAT" /><label for="C">C</label>
+                                                    <input type="checkbox" class="form-group" style="width:20px" name="ME_L_STAT" /><label for="O">O</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+
+                                            <div class="row">
+                                                <div class="col-lg-5  left" style="font-size:13px">
+                                                    <label for="Normal saline">  Normal saline</label>
+                                                </div>
+                                                <div class="col-lg-3  left" style="">
+
+                                                </div>
+                                                <div class="col-lg-4  left" style="padding-top:4px">
+                                                    <label for="ml">ml</label>       <input type="text" class="form-control left" style="width:40px" name="ME_L_ML" />
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-3 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                            <div class="col-xs-12 no-pad-l  " style="padding-left:0px;padding-right:0px;">
+                                                <div class="col-xs-4 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                    <label for="IV">IV</label>
+                                                </div>
+                                                <div class="col-xs-8 no-pad-l left " style="padding-left:0px;padding-right:0px">
+                                                    <input type="text" class="form-control" name="ME_L_FRQ" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 no-pad-l  left ">
+
+                                            <div class="col-md-3 no-pad-l left " style="border-right:solid;height:30px;text-align:center">
+                                                <label for="Y">Y</label>           <input type="checkbox" class="form-group" style="width:20px" /><label for="N">N</label><input type="checkbox" class="form-group" />
+                                            </div>
+                                            <div class="col-lg-6 no-pad-l  left " style="border-right:solid;height:30px;text-align:center">
+                                                <input type="text" class="form-control" name="ME_L_PILL" />
+                                            </div>
+
+                                            <div class="col-lg-3 no-pad-l  left " style="text-align:center">
+                                                <input type="text" class="form-control" name="ME_L_CLASS" />
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="=row">
+                                    <div class="col-md-12 no-pad-l  form-group  " style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px"></div>
+
+                                    <div class="col-lg-1 no-pad-l  " style="padding-left:5px;padding-right:0px;padding-top:0px;padding-bottom:0px;font-weight:bold">
+                                        Medication
+                                        Device(s):
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group  ">
+                                        <div class="col-xs-2  left">
+
+                                        </div>
+                                        <div class="col-sm-2 left ">
+                                            <label for="Nebulizer (type)"> Nebulizer (type)</label>
+                                        </div>
+                                        <div class="col-lg-4 left ">
+                                            <input type="text" class="form-control" name="MD_NEB" style="width:657px" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 form-group  left">
+                                        <div class="col-xs-2  left">
+
+                                        </div>
+                                        <div class="col-sm-2 left ">
+                                            <label for="Pump (type)"> Pump (type)</label>
+                                        </div>
+                                        <div class="col-lg-4 left ">
+                                            <input type="text" class="form-control" name="MD_PUMP" style="width:657px" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 left">
+                                        <div class="col-xs-2 left ">
+
+                                        </div>
+                                        <div class="col-xs-2 left ">
+                                            <label for="IV pole:"> IV pole:</label>
+                                        </div>
+                                        <div class="col-md-2 left ">
+                                            <input id="checkbox11" type="checkbox">   <label for="checkbox11">Yes</label>
+
+                                        </div>
+                                        <div class="col-sm-2 ">
+                                            <input id="checkbox10" type="checkbox">         <label for="checkbox10">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="=row">
+                                <div class="col-md-12 no-pad-l header hdr-title  " style="padding-left:0px;padding-right:0px; width: 1133px">
+                                    REVIEW/REVISE AREA
+
+
+
+
+                                </div>
+
+                                <div class="=row">
+                                    <div class="col-md-12 no-pad-l   control-sep1   " style="height:50px;padding-left:0px;padding-right:0PX;">
+                                        <div class="col-lg-4 no-pad-l hdr-box-top left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0PX;">
+                                        </div>
+                                        <div class="col-lg-2 no-pad-l left " style="padding-right:0px;border-right:solid;height:50px;">
+                                            <div class="row">
+                                                <div class="col-lg-6 no-pad-l">
+
+                                                    <label for="Date">Date</label>
+
+                                                    <input type="text" class="form-control" />
+
+
+
+                                                </div>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="col-lg-6 no-pad-l left " style="text-align:center;padding-top:10px">
+                                            <label for=" Comments">  Comments</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="=row">
+                                    <div class="col-md-12 no-pad-l  control-sep1 " style="height:50px;padding-left:0px;padding-right:0px;">
+                                        <div class="col-lg-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:10px">
+
+
+
+                                            <label for="1. Potential adverse effects/
+                                    drug reactions">
+                                                1. Potential adverse effects/
+                                                drug reactions
+                                            </label>
+                                        </div>
+
+                                        <div class="col-lg-2 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-top:10px">
+                                            <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                            <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+                                        </div>
+
+
+                                        <div class="col-lg-6 no-pad-l form-group left " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                            <input type="text" class="form-control" name="RR_A_COMM" />
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="=row">
+                                <div class="col-md-12 no-pad-l  control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                    <div class="col-lg-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:10px">
+                                        <label for="2. Significant side effects">
+                                            2. Significant side effects
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center;padding-top:5px">
+                                        <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                        <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+                                    </div>
+
+
+
+
+
+
+                                    <div class="col-lg-6 no-pad-l left  " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                        <input type="text" class="form-control" name="RR_B_COMM" />
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+                                    <label for=" 3. Significant drug
+                                           interactions">
+                                        3. Significant drug
+                                        interactions
+                                    </label>
+                                </div>  <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center">
+
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+
+
+                                </div>
+
+                                <div class="col-lg-6 no-pad-l left  " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                    <input type="text" class="form-control" name="RR_C_COMM" />
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:10px">
+                                    <label for="4. Duplicative drug therapy">
+                                        4. Duplicative drug therapy
+                                    </label>
+                                </div>
+                                <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center;padding-top:10px">
+
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+
+                                </div>
+
+
+                                <div class="col-lg-6 no-pad-l  left " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                    <input type="text" class="form-control" name="RR_D_COMM" />
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1 " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;clip-path:5px">
+                                    <label for="5. Potential/actual ineffective
+                                therapy">
+                                        5. Potential/actual ineffective
+                                        therapy
+                                    </label>
+                                </div>
+                                <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center">
+
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+
+
+
+                                </div>
+
+                                <div class="col-lg-6 no-pad-l  left " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+
+                                    <input type="text" class="form-control" name="RR_E_COMM" />
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1  " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l left  " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0PX;">
+                                    <label for="6. Understands instructions">
+                                        6. Understands instructions
+                                    </label>
+                                </div>  <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center">
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+
+
+
+                                </div>
+
+                                <div class="col-lg-6 no-pad-l  left " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                    <input type="text" class="form-control" name="RR_F_COMM" />
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1  " style="height:40px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l  left" style="border-right:solid;height:40px;text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+
+                                    <label for="7. Needs further instructions">
+                                        7. Needs further instructions
+                                    </label>
+
+                                </div>   <div class="col-lg-2 no-pad-l left " style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center;padding-top:5px">
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+                                </div>
+
+                                <div class="col-lg-6 no-pad-l  left " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+
+                                    <input type="text" class="form-control" name="RR_G_COMM" />
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l  control-sep1 " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l  left " style="border-right:solid;height:50px;text-align:center;padding-left:0px;padding-right:0px;padding-top:5px">
+
+                                    <label for="8. Potential noncompliance">
+                                        8. Potential noncompliance
+                                    </label>
+
+                                </div>   <div class="col-lg-2 no-pad-l form-group left" style="padding-left:0px;padding-right:0px;border-right:solid;height:50px;text-align:center;padding-top:5px">
+
+                                    <label for="checkbox11">Y</label><input id="checkbox11" type="checkbox">
+                                    <label for="checkbox10">N</label><input id="checkbox10" type="checkbox">
+
+                                </div>
+
+                                <div class="col-lg-6 no-pad-l left  " style="text-align:center;padding-left:0px; padding-top:8px;padding-right:0px">
+                                    <input type="text" class="form-control" name="RR_H_COMM" />
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="=row">
+                            <div class="col-md-12 no-pad-l   " style="height:50px;padding-left:0px;padding-right:0px;">
+                                <div class="col-lg-4 no-pad-l   " style="border-right:solid;height:50px;text-align:right;padding-left:0px;padding-right:0PX;">
+
+                                    <label for="Signature/Title">
+                                        Signature/Title
+                                    </label>
+
+                                </div>
+                                <div class="col-lg-6 no-pad-l  " style="text-align:center;border-right:solid;height:50px;padding-left:0px; padding-top:20px;padding-right:0px">
+
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col-lg-2 no-pad-l  " style="text-align:center;padding-right:0px;padding-left:0px;padding-top:1px;font-size:12px">
+
+                                    <label for="Date">
+                                        Date
+                                    </label>                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="=row">
+                    <div class="col-lg-12 no-pad-l   " style="padding-left:0px;padding-right:0px;">
+                        <div class="col-lg-4 no-pad-l   " style="text-align:left;padding-left:0px;padding-right:0px;font-size:11px;">
+
+                            <label for="Form 3481E Rev. 11/03 © BRIGGS, Des Moines, IA (800) 247-2343">Form 3481E Rev. 11/03 © BRIGGS, Des Moines, IA (800) 247-2343</label><br />
+                            <label for="Unauthorized copying or use violates copyright law. www.BriggsCorp.com">Unauthorized copying or use violates copyright law. www.BriggsCorp.com</label>
+
+                        </div>
+                        <div class="col-lg-4 no-pad-l   " style="text-align:center;padding-left:0px;padding-right:0px;font-size:20px;">
+                            <label for="BRIGGS ">BRIGGS </label><label for="Healthcare" style="font-weight:unset"> Healthcare</label>
+
+                        </div>
+                        <div class="col-lg-4 no-pad-l  " style="text-align:right;padding-left:0px;padding-right:0px;font-size:20px;">
+                            <label for="MEDICATION PROFILE"> MEDICATION PROFILE</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+  
+
+
+
+
+</body>
+</html>
