@@ -1,0 +1,311 @@
+﻿.xt-pg-title {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.xt-pg-title-thick {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.xt-title-c {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.xt-title-r {
+    text-align: right;
+    padding: 5px 15px;
+}
+
+.xt-pg-btn {
+    float: right;
+    margin: 10px 0px 5px;
+    padding-right: 0;
+}
+
+    .xt-pg-btn i {
+        margin-right: 10px;
+    }
+
+.xt-content-box {
+    border: 3px solid #000;
+    min-height: 450px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.xt-box-square {
+    border-radius: 1px;
+}
+
+.xt-box-radius {
+    border-radius: 10px;
+}
+
+.xt-pg-footer {
+    margin: 5px 0;
+    border-top: 1px solid #555;
+    padding: 5px;
+    height: 50px;
+    border-bottom: 1px solid #555;
+    /*line-height: 35px;*/
+}
+
+.xt-foot-cr {
+    padding-top: 2px;
+    font-size: 9px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.xt-foot-cr2 {
+    margin-left: -72px;
+}
+
+.xt-foot-fcode {
+    padding-left: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    padding-right: 5px;
+}
+
+.xt-foot-fname {
+    font-size: 12px;
+    padding: 5px 0px;
+    font-weight: 600;
+    float: right;
+    line-height: 25px;
+}
+
+.xt-sec-header {
+    min-height: 25px;
+    margin-bottom: 3px;
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.xt-sec-hdr-black {
+    background: #000;
+}
+
+.xt-sec-hdr-gray {
+    background: #dedcdc;
+}
+
+.xt-header-txt {
+    text-align: center;
+    font-weight: 600;
+}
+
+.xt-txt-b {
+    color: #000;
+}
+
+.xt-txt-w {
+    color: #fff;
+}
+
+.xt-sec-divider {
+    border-top: 3px solid #000;
+}
+
+
+.xt-fl {
+    float: left;
+}
+
+.xt-fr {
+    float: right;
+}
+
+.xt-no-pad {
+    padding: 0px;
+}
+
+.xt-no-pad-l {
+    padding-left: 0px;
+}
+
+.xt-no-pad-r {
+    padding-right: 0px;
+}
+
+.xt-pad-thin {
+    padding: 3px;
+}
+
+.xt-pad-thin-tb {
+    padding: 3px 0px;
+}
+
+.xt-pad-thin-lr {
+    padding: 0px 3px;
+}
+
+.xt-pad-thick {
+    padding: 5px;
+}
+
+.xt-pad-thick-tb {
+    padding: 5px 0px;
+}
+
+.xt-pad-thick-lr {
+    padding: 0px 5px;
+}
+
+.xt-pad {
+    padding: 10px;
+}
+
+.xt-pad-thick {
+    padding: 10px 0px;
+}
+
+.xt-pad-thick-lr {
+    padding: 0px 10px;
+}
+
+.xt-f-thick-md {
+    font-weight: 600;
+}
+
+.xt-f-thick {
+    font-weight: 700;
+}
+
+.xt-f-sm {
+    font-size: 11px;
+}
+
+.xt-f-xsm {
+    font-size: 9px;
+}
+
+.xt-f-md {
+    font-size: 12px;
+}
+
+.form-control:hover {
+    border: 1px solid #000 !important;
+    background: transparent;
+}
+
+.form-control:focus {
+    background: transparent;
+}
+
+.xt-txt-u-l {
+    text-decoration: underline;
+}
+
+.xt-brd {
+    border: 5px solid #111;
+}
+
+.xt-brd-l {
+    border-left: 5px solid #111;
+}
+
+.xt-brd-r {
+    border-right: 5px solid #111;
+}
+
+.xt-brd-t {
+    border-top: 5px solid #111;
+}
+
+.xt-brd-b {
+    border-bottom: 5px solid #111;
+}
+
+.xt-brd-thick {
+    border: 3px solid #111;
+}
+
+.xt-brd-thick-t {
+    border-top: 3px solid #111;
+}
+
+.xt-brd-thick-b {
+    border-bottom: 3px solid #111;
+}
+
+.xt-brd-thick-r {
+    border-right: 3px solid #111;
+}
+
+.xt-brd-thick-l {
+    border-left: 3px solid #111;
+}
+
+.xt-brd-thin {
+    border: 1px solid #111;
+}
+
+.xt-brd-thin-l {
+    border-left: 1px solid #111;
+}
+
+.xt-brd-thin-r {
+    border-right: 1px solid #111;
+}
+
+.xt-brd-thin-t {
+    border-top: 1px solid #111;
+}
+
+.xt-brd-thin-b {
+    border-bottom: 1px solid #111;
+}
+
+.xt-rds-thick-b-l {
+    border-radius: 0px 0px 0px 15px;
+}
+
+.xt-rds-thick-t-l {
+    border-radius: 15px 0px 0px 0px;
+}
+
+.xt-rds-thick-b-r {
+    border-right: 3px solid #111;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.xt-thick-rds-t-r {
+    border-radius: 0px 15px 0px 0px;
+}
+
+.xt-control {
+    height: 23px;
+    font-size: 12px;
+}
+
+.xt-cntrl-grp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.xt-cont-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.xt-col-offs {
+    margin-left: 20px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .xt-foot-cr2 {
+        margin-left: -5px;
+    }
+}
+
+
+.xt-brd-thin-r-w{
+    border-right:1px solid #ffffff;
+}
