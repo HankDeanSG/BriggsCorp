@@ -1,0 +1,12 @@
+﻿.xt-col-wid
+{
+width:18.33333%;
+height:240px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .xt-col-wid {
+        width: 18.33333%;
+        height: 369px;
+    }
+}
