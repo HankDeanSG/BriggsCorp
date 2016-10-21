@@ -1,0 +1,535 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link href="Content/css/bootstrap/bootstrap.min.css" rel="stylesheet" /><link href="Content/css/main/main.css" rel="stylesheet" />
+    <script src="Scripts/jquery/jquery-3.1.1.min.js"></script>
+    <script src="Scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="Scripts/match-height/jquery.matchHeight-min.js"></script>
+    <script src="Scripts/page/common.js"></script>
+    <title>
+	BRIGGS | HTML Forms
+</title>
+    <style>
+        .hme-hdr {
+            height: 25px;
+            margin: 5px 0px;
+            text-align: center;
+            font-weight: 600;
+            line-height: 25px;
+            background: #555;
+            color: #fff;
+            border-right: 2px solid;
+            font-size: 12px;
+        }
+
+        .hme-data-row {
+            font-size: 10px;
+            border-right: 1px solid #ede;
+            line-height: 21px;
+            height: 21px;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+            .hme-data-row:last-child {
+                border: none;
+            }
+    </style>
+</head>
+<body>
+    <form method="post" action="./Home.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="981F6E27" />
+</div>
+        <div>
+            <div class="col-lg-12">
+                <div class="col-lg-11">
+                    <div class="col-lg-1 hme-hdr">
+                        Form Id
+                    </div>
+                    <div class="col-lg-1 hme-hdr">
+                        Form Code
+                    </div>
+                    <div class="col-lg-4 hme-hdr">
+                        Form Name
+                    </div>
+                    <div class="col-lg-1 hme-hdr">
+                        Development Status
+                    </div>
+                    <div class="col-lg-1 hme-hdr">
+                        Form Link
+                    </div>
+                    <div class="col-lg-3 hme-hdr">
+                       ----------
+                    </div>
+
+                </div>
+            </div>
+            
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                451
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3401P-15
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                FACE TO FACE ENCOUNTER
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3401/3401.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                94
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3529/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                ADMISSION SERVICE AGREEMENT
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3529/3529.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                476
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3542/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                HOME ENVIRONMENT SAFETY EVAL
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3542/3542.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                285
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3546P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                NON-OASIS NSG COMP ASMT
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3546/3546.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                277
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3570/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                SKILLED NURSING VISIT NOTE
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3570/3570.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                318
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3573D/P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                AIDE DAILY VISIT RECORD
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3573/3573.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                95
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3577/2
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                CARE COORDINATION NOTE
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3577/3577.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                271
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3585/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                DISCHARGE INSTRUCTIONS
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3585/3585.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                314
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3605/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                INCIDENT REPORT
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3605/3605.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                284
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3690HH-10
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                PAIN EVALUATION
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3690/3690.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                450
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3424P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                TINETTI ASSESSMENT TOOL
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3424/3424.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                273
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3532P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                INTAKE REFERRAL FORM
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3532/3532.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                317
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3553/2
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                SUPERVISORY VISITS HOME HLTH C
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3553/3553.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                208
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3708/2P-11
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                NON OASIS PT CARE PLAN
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3708/3708.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                447
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3579/2P-11
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                OCCUPATIONAL THERAPY REVISIT
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3579/3579.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                207
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3594/2P-11
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                NON OASIS OT CARE PLAN
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3594/3594.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="col-lg-12">
+
+                        <div class="col-lg-11">
+                            <div class="col-lg-1 hme-data-row">
+                                270
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                D 3583/2P
+                            </div>
+                            <div class="col-lg-4 hme-data-row">
+                                NON-OASIS NSG SUMMARY
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                Completed
+                            </div>
+                            <div class="col-lg-1 hme-data-row">
+                                <a class="btn-block btn-primary btn-xs text-center" style="text-decoration: none;" href='Forms/3583/3583.html' target="_blank">view
+                                </a>
+                            </div>
+                            <div class="col-lg-3 hme-data-row">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+        </div>
+    </form>
+</body>
+</html>
