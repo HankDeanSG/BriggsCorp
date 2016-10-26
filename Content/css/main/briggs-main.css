@@ -1,58 +1,51 @@
-﻿.form-control:hover {
-    border: 1px solid #000;
-    background: transparent;
-}
+﻿
 
-.form-control:focus {
-    background: transparent;
-}
-
-.briggs-xt-pg-title {
+.briggs-pg-title {
     font-size: 21px;
     font-weight: 600;
 }
 
-.briggs-xt-pg-title-thick {
+.briggs-pg-title-thick {
     font-size: 21px;
     font-weight: 800;
 }
 
-.briggs-xt-title-c {
+.briggs-title-c {
     text-align: center;
     padding: 5px 0px;
 }
 
-.briggs-xt-title-r {
+.briggs-title-r {
     text-align: right;
     padding: 5px 15px;
 }
 
-.briggs-xt-pg-btn {
+.briggs-pg-btn {
     float: right;
     margin: 10px 0px 5px;
     padding-right: 0;
 }
 
-    .briggs-xt-pg-btn i {
+    .briggs-pg-btn i {
         margin-right: 10px;
     }
 
-.briggs-xt-content-box {
+.briggs-content-box {
     border: 3px solid #000;
     min-height: 450px;
     margin: 5px 0;
     padding: 5px;
 }
 
-.briggs-xt-box-square {
+.briggs-box-square {
     border-radius: 1px;
 }
 
-.briggs-xt-box-radius {
+.briggs-box-radius {
     border-radius: 10px;
 }
 
-.briggs-xt-pg-footer {
+.briggs-pg-footer {
     margin: 5px 0;
     border-top: 1px solid #555;
     padding: 5px;
@@ -61,7 +54,7 @@
     /*line-height: 35px;*/
 }
 
-.briggs-xt-foot-cr {
+.briggs-foot-cr {
     padding-top: 2px;
     font-size: 9px;
     float: left;
@@ -69,11 +62,11 @@
     padding-right: 5px;
 }
 
-.briggs-xt-foot-cr2 {
+.briggs-foot-cr2 {
     margin-left: -72px;
 }
 
-.briggs-xt-foot-fcode {
+.briggs-foot-fcode {
     padding-left: 0px;
     font-size: 11px;
     font-weight: bold;
@@ -81,7 +74,7 @@
     padding-right: 5px;
 }
 
-.briggs-xt-foot-fname {
+.briggs-foot-fname {
     font-size: 12px;
     padding: 5px 0px;
     font-weight: 600;
@@ -89,190 +82,189 @@
     line-height: 25px;
 }
 
-.briggs-xt-sec-header {
-    min-height: 25px;
-    margin-bottom: 3px;
+.briggs-sec-header {
+    min-height: 25px;   
     line-height: 25px;
     margin-top: 0px;
 }
 
-.briggs-xt-sec-hdr-black {
+.briggs-sec-hdr-black {
     background: #000;
 }
 
-.briggs-xt-sec-hdr-gray {
+.briggs-sec-hdr-gray {
     background: #dedcdc;
 }
 
-.briggs-xt-header-txt {
+.briggs-header-txt {
     text-align: center;
     font-weight: 600;
 }
 
-.briggs-xt-txt-b {
+.briggs-txt-b {
     color: #000;
 }
 
-.briggs-xt-txt-w {
+.briggs-txt-w {
     color: #fff;
 }
 
-.briggs-xt-sec-divider {
+.briggs-sec-divider {
     border-top: 3px solid #000;
 }
 
 
-.briggs-xt-fl {
+.briggs-fl {
     float: left;
 }
 
-.briggs-xt-fr {
+.briggs-fr {
     float: right;
 }
 
-.briggs-xt-no-pad {
+.briggs-no-pad {
     padding: 0px;
 }
 
-.briggs-xt-no-pad-l {
+.briggs-no-pad-l {
     padding-left: 0px;
 }
 
-.briggs-xt-no-pad-r {
+.briggs-no-pad-r {
     padding-right: 0px;
 }
 
-.briggs-xt-pad-thin {
+.briggs-pad-thin {
     padding: 3px;
 }
 
-.briggs-xt-pad-thin-tb {
+.briggs-pad-thin-tb {
     padding: 3px 0px;
 }
 
-.briggs-xt-pad-thin-lr {
+.briggs-pad-thin-lr {
     padding: 0px 3px;
 }
 
-.briggs-xt-pad-thick {
+.briggs-pad-thick {
     padding: 5px;
 }
 
-.briggs-xt-pad-thick-tb {
+.briggs-pad-thick-tb {
     padding: 5px 0px;
 }
 
-.briggs-xt-pad-thick-lr {
+.briggs-pad-thick-lr {
     padding: 0px 5px;
 }
 
-.briggs-xt-pad {
+.briggs-pad {
     padding: 10px;
 }
 
-.briggs-xt-pad-thick {
+.briggs-pad-thick {
     padding: 10px 0px;
 }
 
-.briggs-xt-pad-thick-lr {
+.briggs-pad-thick-lr {
     padding: 0px 10px;
 }
 
-.briggs-xt-f-thick-md {
+.briggs-f-thick-md {
     font-weight: 600;
 }
 
-.briggs-xt-f-thick {
+.briggs-f-thick {
     font-weight: 700;
 }
 
-.briggs-xt-f-sm {
+.briggs-f-sm {
     font-size: 11px;
 }
 
-.briggs-xt-f-xsm {
+.briggs-f-xsm {
     font-size: 9px;
 }
 
-.briggs-xt-f-md {
+.briggs-f-md {
     font-size: 12px;
 }
 
 
 
-.briggs-xt-txt-u-l {
+.briggs-txt-u-l {
     text-decoration: underline;
 }
 
-.briggs-xt-brd {
+.briggs-brd {
     border: 5px solid #111;
 }
 
-.briggs-xt-brd-l {
+.briggs-brd-l {
     border-left: 5px solid #111;
 }
 
-.briggs-xt-brd-r {
+.briggs-brd-r {
     border-right: 5px solid #111;
 }
 
-.briggs-xt-brd-t {
+.briggs-brd-t {
     border-top: 5px solid #111;
 }
 
-.briggs-xt-brd-b {
+.briggs-brd-b {
     border-bottom: 5px solid #111;
 }
 
-.briggs-xt-brd-thick {
+.briggs-brd-thick {
     border: 3px solid #111;
 }
 
-.briggs-xt-brd-thick-t {
+.briggs-brd-thick-t {
     border-top: 3px solid #111;
 }
 
-.briggs-xt-brd-thick-b {
+.briggs-brd-thick-b {
     border-bottom: 3px solid #111;
 }
 
-.briggs-xt-brd-thick-r {
+.briggs-brd-thick-r {
     border-right: 3px solid #111;
 }
 
-.briggs-xt-brd-thick-l {
+.briggs-brd-thick-l {
     border-left: 3px solid #111;
 }
 
-.briggs-xt-brd-thin {
+.briggs-brd-thin {
     border: 1px solid #111;
 }
 
-.briggs-xt-brd-thin-l {
+.briggs-brd-thin-l {
     border-left: 1px solid #111;
 }
 
-.briggs-xt-brd-thin-r {
+.briggs-brd-thin-r {
     border-right: 1px solid #111;
 }
 
-.briggs-xt-brd-thin-t {
+.briggs-brd-thin-t {
     border-top: 1px solid #111;
 }
 
-.briggs-xt-brd-thin-b {
+.briggs-brd-thin-b {
     border-bottom: 1px solid #111;
 }
 
-.briggs-xt-rds-thick-b-l {
+.briggs-rds-thick-b-l {
     border-radius: 0px 0px 0px 15px;
 }
 
-.briggs-xt-rds-thick-t-l {
+.briggs-rds-thick-t-l {
     border-radius: 15px 0px 0px 0px;
 }
 
-.briggs-xt-rds-thick-b-r {
+.briggs-rds-thick-b-r {
     border-right: 3px solid #111;
     border-radius: 0px 0px 15px 0px;
 }
@@ -281,33 +273,64 @@
     border-radius: 0px 15px 0px 0px;
 }
 
-.briggs-xt-control {
+.briggs-control {
     height: 23px;
     font-size: 12px;
 }
 
-.briggs-xt-cntrl-grp {
+.briggs-control:hover{
+	 border: 1px solid #000;
+    background: transparent;
+}
+
+.briggs-control:focus{
+	background: transparent;
+}
+
+.briggs-cntrl-grp {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.briggs-xt-cont-row {
+.briggs-cont-row {
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.briggs-xt-col-offs {
+.briggs-col-offs {
     margin-left: 20px;
 }
 
+.briggs-mrg-thin-t{
+    margin-top:5px;
+}
+
+.briggs-mrg-thick-t{
+    margin-top:10px;
+}
+.briggs-mrg-t{
+    margin-top:15px;
+}
+
+.briggs-mrg-b{
+    margin-bottom:15px;
+}
+
+.briggs-mrg-b-thick{
+    margin-bottom:10px;
+}
+
+.briggs-mrg-b-thin{
+    margin-bottom:5px;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .briggs-xt-foot-cr2 {
+    .briggs-foot-cr2 {
         margin-left: -5px;
     }
 }
 
 
-.briggs-xt-brd-thin-r-w{
+.briggs-brd-thin-r-w{
     border-right:1px solid #ffffff;
 }

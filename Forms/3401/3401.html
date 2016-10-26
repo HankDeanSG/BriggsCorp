@@ -1,731 +1,736 @@
 ﻿<!DOCTYPE html>
-<html>
-<head> 
+<html lang="en">
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link href="../../Content/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="../../Content/css/main/briggs-main.css" rel="stylesheet" />
-	 <title>BRIGGS | FACE-TO-FACE ENCOUNTER | FOR HOME CARE </title>
+    <title>BRIGGS | FACE-TO-FACE ENCOUNTER | FOR HOME CARE </title>
 </head>
 <body>
+    <!--form starts here-->
 
-    <form name="3401">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <!-- header starts hear -->
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 briggs-mrg-t  briggs-pg-title">
+                        <div class="col-lg-4 col-sm-6 briggs-no-pad text-right briggs-fr">
+                            FACE-TO-FACE ENCOUNTER
+                            FOR HOME CARE
+                        </div>
+                    </div>
+                </div>
+                <!-- header ends hear -->
+                <!--page 1 starts here-->
+                <div class="col-lg-12 col-sm-12 briggs-content-box briggs-box-square briggs-no-pad-l briggs-no-pad">
+                    <div class="row briggs-cont-row ">
+                        <div class="col-lg-12 col-sm-12 briggs-sec-header briggs-sec-hdr-gray">
+                            <label class="xt-f-thick-md">To be filled out by the home care agency. </label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2 col-sm-3">
+                            <label class="xt-f-thick-md  briggs-cntrl-grp" for="BIRTH_DATE"> Patient D.O.B.:</label>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 briggs-cntrl-grp">
+                            <input type="text" class="form-control briggs-control" name="BIRTH_DATE" id="BIRTH_DATE" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-8  col-sm-10 briggs-f-thick briggs-txt-u-l">
+                          QUALIFYING ENCOUNTER TYPE FOR HOME CARE SERVICES(check all that apply)
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-12 col-sm-12 ">
+                            <div class="col-lg-1 col-sm-1 radio radio-info briggs-cntrl-grp">
+                                <label for="ENCOUNTER_HOME_ACUTE">
+                                    <input type="radio" id="ENCOUNTER_HOME_ACUTE" name="ENCOUNTER_HOME" value="ACUTE" />  Acute
+
+                                </label>
+                            </div>
+                            <div class="col-lg-11 col-sm-11 ">
+                                <div class="radio radio-info briggs-cntrl-grp">
+                                    <label for="ENCOUNTER_HOME_POST_ACUTE"><input type="radio" id="ENCOUNTER_HOME_POST_ACUTE" name="ENCOUNTER_HOME" value="POST_ACUTE" />Post-acute (physician who conducted the face-to-face encounter during an inpatient stay)</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2  col-sm-2">
+                            <label for="DATE_CONDUCTED" class="xt-f-thick-md   briggs-cntrl-grp"> Date conducted:</label>
+                        </div>
+                        <div class="col-lg-2  col-sm-2  briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="DATE_CONDUCTED" id="DATE_CONDUCTED" />
+                        </div>
+                        <div class="col-lg-3 col-sm-3    briggs-cntrl-grp briggs-no-pad">
+                            <label for="PROVIDERS_NAME1"> Provider’s name (print):</label>
+                        </div>
+                        <div class="col-lg-3  col-sm-3 briggs-no-pad">
+                            <input type="text" class="form-control  briggs-control" name="PROVIDERS_NAME1" id="PROVIDERS_NAME1" />
+                        </div>
+                        <div class="col-lg-1 col-sm-1 briggs-no-pad-r">
+                            <label for="NPI_NO1" class="briggs-cntrl-grp"> NPI#: </label>
+                        </div>
+                        <div class="col-lg-1 col-sm-1 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="NPI_NO1" id="NPI_NO1" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-4 col-sm-4 briggs-cntrl-grp">
+                            <label for="PLAN_CARE_CERTIFYING_PHYSICIAN" class="xt-f-thick-md">   Plan of Care Certifying Physician (print):</label>
+                        </div>
+                        <div class="col-lg-6   col-sm-6  briggs-cntrl-grp briggs-no-pad">
+                            <input type="text" class="form-control  briggs-control" name="PLAN_CARE_CERTIFYING_PHYSICIAN" id="PLAN_CARE_CERTIFYING_PHYSICIAN" />
+                        </div>
+                        <div class="col-lg-1 col-sm-1">
+                            <label for="NPI_NO2" class="xt-f-thick-md  briggs-cntrl-grp">   NPI#:</label>
+                        </div>
+                        <div class="col-lg-1 col-sm-1 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="NPI_NO2" id="NPI_NO2" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 briggs-cntrl-grp">
+                            <div class="col-lg-4  col-sm-5 checkbox checkbox -info">
+
+                                <label for="FACETOFACE_ENCOUNTER_CONDUCTED"><input type="checkbox" id="FACETOFACE_ENCOUNTER_CONDUCTED" name="FACETOFACE_ENCOUNTER_CONDUCTED" />Face-to face encounter was conducted:</label>
+                            </div>
+                            <div class="col-lg-3  col-sm-4">
+                                <div class="checkbox checkbox-info ">
+                                    <label for="WITHIN_90DAYS_PRIOR_SOC">
+                                        <input type="checkbox" id="WITHIN_90DAYS_PRIOR_SOC" name="WITHIN_90DAYS_PRIOR_SOC" />within 90 days prior to SOC:
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-3  col-sm-3 checkbox checkbox-info">
+
+                                <label for="WITHIN_30DAYS_AFTER_SOC"><input type="checkbox" id="WITHIN_30DAYS_AFTER_SOC" name="WITHIN_30DAYS_AFTER_SOC" />within 30 days after SOC</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2  col-sm-2  briggs-cntrl-grp">
+                            <label for="SOC_DATE" class="xt-f-thick-md">  SOC date:</label>
+                        </div>
+                        <div class="col-lg-2 col-sm-2  briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="SOC_DATE" id="SOC_DATE" />
+                        </div>
+                        <div class="col-lg-2  col-sm-3  briggs-cntrl-grp">
+                            <label for="DATE_30TH_DAY" class="xt-f-thick-md">  Date of 30th day:</label>
+                        </div>
+                        <div class="col-lg-6 col-sm-5 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="DATE_30TH_DAY" id="DATE_30TH_DAY" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2 col-sm-3  briggs-cntrl-grp briggs-no-pad-r">
+                            <label for="DATE_SCHEDULED_VISIT" class="xt-f-thick-md">  Date of scheduled visit:</label>
+                        </div>
+                        <div class="col-lg-2  col-sm-1  briggs-cntrl-grp briggs-no-pad-r">
+                            <input type="text" class="form-control  briggs-control" name="DATE_SCHEDULED_VISIT" id="DATE_SCHEDULED_VISIT" />
+                        </div>
+                        <div class="col-lg-3  col-sm-3  briggs-cntrl-grp briggs-no-pad-r">
+                            <label for="PROVIDERS_NAME2" class="xt-f-thick-md">  Provider’s name (print):</label>
+                        </div>
+                        <div class="col-lg-3   col-sm-3  briggs-cntrl-grp briggs-no-pad">
+                            <input type="text" class="form-control  briggs-control" name="PROVIDERS_NAME2" id="PROVIDERS_NAME2" />
+                        </div>
+                        <div class="col-lg-1   col-sm-1 briggs-cntrl-grp briggs-no-pad-r">
+                            <label for="NPI_NO3" class="xt-f-thick-md"> NPI#:</label>
+                        </div>
+                        <div class="col-lg-1  col-sm-1 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="NPI_NO3" id="NPI_NO3" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-6 col-sm-8  briggs-cntrl-grp briggs-no-pad-r">
+                            Was provider’s office contacted to verify appointment and purpose of appointment:
+                        </div>
+                        <div class="col-lg-1  col-sm-1 ">
+                            <div class="radio radio-info briggs-cntrl-grp">
+                                <label for="PROVIDERS_OFFICE_CONTACTED_YES">
+                                    <input type="radio" id="PROVIDERS_OFFICE_CONTACTED_YES" name="PROVIDERS_OFFICE_CONTACTED" value="YES" />Yes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-1  col-sm-1">
+                            <div class="radio radio-info briggs-cntrl-grp">
+                                <label for="PROVIDERS_OFFICE_CONTACTED_NO">
+                                    <input type="radio" id="PROVIDERS_OFFICE_CONTACTED_NO" name="PROVIDERS_OFFICE_CONTACTED" value="NO" />No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2 col-sm-3  briggs-cntrl-grp">
+                            <label for="DATE_CONTACTED" class="xt-f-thick-md">  If Yes, date contacted</label>
+                        </div>
+                        <div class="col-lg-2  col-sm-2  briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control " name="DATE_CONTACTED" id="DATE_CONTACTED" />
+                        </div>
+                        <div class="col-lg-2  col-sm-2 briggs-cntrl-grp">
+                            <label for="BY_WHOM" class="xt-f-thick-md">   By whom:</label>
+                        </div>
+                        <div class="col-lg-6 col-sm-5 briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="BY_WHOM" id="BY_WHOM" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2  col-sm-3 briggs-cntrl-grp">
+                            <label for="EXPLAIN" class="xt-f-thick-md">  If No, explain:</label>
+                        </div>
+                        <div class="col-lg-10 col-sm-9 briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="EXPLAIN" id="EXPLAIN" />
+                        </div>
+                    </div>
                     <div class="row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <div class="col-lg-6   col-sm-8 checkbox checkbox-info">
+
+                                <label for="FACETOFACE_PROVIDED_LATER_30DAYS">
+                                    <input type="checkbox" id="FACETOFACE_PROVIDED_LATER_30DAYS" name="FACETOFACE_PROVIDED_LATER_30DAYS" />Face-to-face was provided later than 30 days <span style="text-decoration:underline">after initial SOC. </span>
+                                </label>
+                            </div>
+                            <div class="col-lg-3  col-sm-5 ">
+                                <label for="DATE_FACETOFACE_PROVIDED">    Date Face-to-face was provided</label>
+                            </div>
+                            <div class="col-lg-3 col-sm-7  ">
+                                <input type="text" class="form-control  briggs-control" name="DATE_FACETOFACE_PROVIDED" id="DATE_FACETOFACE_PROVIDED" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2  col-sm-2  briggs-cntrl-grp">
+                            <label for="RESET_SOC_DATE" class="xt-f-thick-md"> Reset SOC date:</label>
+                        </div>
+                        <div class="col-lg-2  col-sm-2  briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="RESET_SOC_DATE" id="RESET_SOC_DATE" />
+                        </div>
+                        <div class="col-lg-3  col-sm-3  briggs-cntrl-grp">
+                            <label for="PROVIDERS_NAME3" class="xt-f-thick-md"> Provider’s name (print):</label>
+                        </div>
+                        <div class="col-lg-3   col-sm-3  briggs-cntrl-grp">
+                            <input type="text" class="form-control  briggs-control" name="PROVIDERS_NAME3" id="PROVIDERS_NAME3" />
+                        </div>
+                        <div class="col-lg-1 col-sm-1   briggs-cntrl-grp briggs-no-pad">
+                            <label for="NPI_NO4">   NPI#:</label>
+                        </div>
+                        <div class="col-lg-1 col-sm-1  briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="NPI_NO4" id="NPI_NO4" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12  col-sm-12 hdr-box-top briggs-cntrl-grp ">
+                            To be filled out by physician conducting the initial certification for homecare admission
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-4 ">
+                            <label class="xt-f-thick-md"> PHYSICIAN ATTESTATION</label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
                         <div class="col-lg-12 col-sm-12">
-                            <div class="briggs-xt-cntrl-grp col-lg-2 col-sm-3 briggs-xt-pg-btn">
-                                <button type="submit" class="btn btn-block btn-primary" name="SUBMIT_TO_WEB"><i class="fa fa-floppy-o" aria-hidden="true"></i>Save to Web</button>
+                            <div class="checkbox checkbox-info">
+
+                                <label for="PHYSICIAN_ATTESTATION" class="xt-f-thick-md">
+                                    <input type="checkbox" id="PHYSICIAN_ATTESTATION" name="PHYSICIAN_ATTESTATION" />
+                                    I certify <span>
+                                        that this patient is under my care and that I or an allowed NPP (a nurse practitioner, or a clinical nurse  specialist, or a physician’s assistant)
+                                        working with me, had a face-to-face encounter that meets the physician face-to-face encounter requirements on:
+                                    </span>
+                                </label>  <br />
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12   briggs-xt-pg-title">
-                            <div class="col-lg-4 col-sm-6 text-right briggs-xt-fr">
-                                FACE-TO-FACE ENCOUNTER
-                                FOR HOME CARE
-                            </div>
-
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-1 col-sm-1 briggs-cntrl-grp briggs-no-pad-r">
+                            <label class="xt-f-thick-md" for="PHYSICIAN_ATTESTATION_DATE"> Date:</label>
+                        </div>
+                        <div class="col-lg-1 col-sm-1 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="PHYSICIAN_ATTESTATION_DATE" id="PHYSICIAN_ATTESTATION_DATE" />
+                        </div>
+                        <div class="col-lg-6 col-sm-7 briggs-cntrl-grp">
+                            I have initiated the establishment of the plan of care.
                         </div>
                     </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            The encounter with the patient was in whole, or in part, for the following medical condition, which is the primary
+                            reason for home health care (List medical conditions/include primary diagnosis):
+                            <textarea id="DIAG_AREA" class="form-control briggs-control" name="DIAG_AREA"></textarea>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            Based on the clinical findings, I certify the patient is homebound and that the following intermittent home care
+                            services are medically necessary: (Check all that apply)
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 ">
+                            <div class="col-lg-2  col-sm-3 checkbox checkbox-info briggs-no-pad-r">
 
-                    <div class="col-lg-12 col-sm-12 briggs-xt-content-box briggs-xt-box-square briggs-xt-no-pad-l briggs-xt-no-pad">
-                        <div class="row briggs-xt-cont-row ">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-sec-header briggs-xt-sec-hdr-gray">
-                                <label class="xt-f-thick-md">To be filled out by the home care agency. </label>
+                                <label for="NURSING">
+                                    <input type="checkbox" id="NURSING" name="NURSING" />Nursing Therapy:
+                                </label>
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2 col-sm-3">
-                                <label class="xt-f-thick-md  briggs-xt-cntrl-grp" for="BIRTH_DATE"> Patient D.O.B.:</label>
-                            </div>
-                            <div class="col-lg-2 col-sm-2 briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control briggs-xt-control" name="BIRTH_DATE"id="BIRTH_DATE" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-8  col-sm-10 ">
-                                <label style="text-decoration:underline" > QUALIFYING ENCOUNTER TYPE FOR HOME CARE SERVICES(check all that apply)</label>
-                            </div>
-
-                        </div>
-
-                        <div class="row ">
-                            <div class="col-lg-12 col-sm-12 ">
-                                <div class="col-lg-1 col-sm-1 radio radio-info briggs-xt-cntrl-grp">
-                                    <label for="ENCOUNTER_HOME_ACUTE">
-                                        <input type="radio" id="ENCOUNTER_HOME_ACUTE" name="ENCOUNTER_HOME" value="ACUTE" />  Acute
-                                      
-                                    </label>
-                                </div>
-                                <div class="col-lg-11 col-sm-11 ">
-                                   <div class="radio radio-info briggs-xt-cntrl-grp">
-                                    <label for="ENCOUNTER_HOME_POST_ACUTE" ><input type="radio" id="ENCOUNTER_HOME_POST_ACUTE" name="ENCOUNTER_HOME" value="POST_ACUTE" />Post-acute (physician who conducted the face-to-face encounter during an inpatient stay)</label>
-                                </div>
-								</div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2  col-sm-2">
-                                <label  for="DATE_CONDUCTED"class="xt-f-thick-md   briggs-xt-cntrl-grp"> Date conducted:</label>
-                            </div>
-                            <div class="col-lg-2  col-sm-2  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="DATE_CONDUCTED" id="DATE_CONDUCTED" />
-                            </div>
-                            <div class="col-lg-3 col-sm-3    briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                <label for="PROVIDERS_NAME1" > Provider’s name (print):</label>
-                            </div>
-                            <div class="col-lg-3  col-sm-3 briggs-xt-no-pad">
-                                <input type="text" class="form-control  briggs-xt-control" name="PROVIDERS_NAME1" id="PROVIDERS_NAME1" />
-                            </div>
-                            <div class="col-lg-1 col-sm-1 briggs-xt-no-pad-r">
-                                <label for="NPI_NO1"class="briggs-xt-cntrl-grp" > NPI#: </label>
-                            </div>
-                            <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="NPI_NO1" id="NPI_NO1" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-4 col-sm-4 briggs-xt-cntrl-grp">
-                                <label for="PLAN_CARE_CERTIFYING_PHYSICIAN"class="xt-f-thick-md" >   Plan of Care Certifying Physician (print):</label>
-                            </div>
-                            <div class="col-lg-6   col-sm-6  briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                <input type="text" class="form-control  briggs-xt-control" name="PLAN_CARE_CERTIFYING_PHYSICIAN"id="PLAN_CARE_CERTIFYING_PHYSICIAN" />
-                            </div>
-                            <div class="col-lg-1 col-sm-1">
-                                <label  for="NPI_NO2"class="xt-f-thick-md  briggs-xt-cntrl-grp">   NPI#:</label>
-                            </div>
-                            <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="NPI_NO2" id="NPI_NO2" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 briggs-xt-cntrl-grp">
-                                <div class="col-lg-4  col-sm-5 checkbox checkbox -info">
-                                   
-                                    <label for="FACETOFACE_ENCOUNTER_CONDUCTED" ><input type="checkbox" id="FACETOFACE_ENCOUNTER_CONDUCTED" name="FACETOFACE_ENCOUNTER_CONDUCTED" />Face-to face encounter was conducted:</label>
-                                </div>
-                                <div class="col-lg-3  col-sm-4">
-                                   <div class="checkbox checkbox-info ">
-                                    <label for="WITHIN_90DAYS_PRIOR_SOC" >
-									<input type="checkbox" id="WITHIN_90DAYS_PRIOR_SOC" name="WITHIN_90DAYS_PRIOR_SOC" />within 90 days prior to SOC:</label>
-                                </div>
-								</div>
-                                <div class="col-lg-3  col-sm-3 checkbox checkbox-info">
-                                   
-                                    <label for="WITHIN_30DAYS_AFTER_SOC"><input type="checkbox" id="WITHIN_30DAYS_AFTER_SOC" name="WITHIN_30DAYS_AFTER_SOC" />within 30 days after SOC</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2  col-sm-2  briggs-xt-cntrl-grp">
-                                <label for="SOC_DATE" class="xt-f-thick-md">  SOC date:</label>
-                            </div>
-                            <div class="col-lg-2 col-sm-2  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="SOC_DATE" id="SOC_DATE" />
-                            </div>
-                            <div class="col-lg-2  col-sm-3  briggs-xt-cntrl-grp">
-                                <label for="DATE_30TH_DAY" class="xt-f-thick-md" >  Date of 30th day:</label>
-                            </div>
-                            <div class="col-lg-6 col-sm-5 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="DATE_30TH_DAY" id="DATE_30TH_DAY" />
-
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2 col-sm-3  briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                                <label for="DATE_SCHEDULED_VISIT" class="xt-f-thick-md" >  Date of scheduled visit:</label>
-                            </div>
-                            <div class="col-lg-2  col-sm-1  briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                                <input type="text" class="form-control  briggs-xt-control" name="DATE_SCHEDULED_VISIT" id="DATE_SCHEDULED_VISIT" />
-                            </div>
-                            <div class="col-lg-3  col-sm-3  briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                                <label for="PROVIDERS_NAME2"  class="xt-f-thick-md">  Provider’s name (print):</label>
-                            </div>
-                            <div class="col-lg-3   col-sm-3  briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                <input type="text" class="form-control  briggs-xt-control" name="PROVIDERS_NAME2" id="PROVIDERS_NAME2" />
-                            </div>
-                            <div class="col-lg-1   col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                                <label for="NPI_NO3" class="xt-f-thick-md" > NPI#:</label>
-                            </div>
-                            <div class="col-lg-1  col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="NPI_NO3" id="NPI_NO3" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-6 col-sm-8  briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                                Was provider’s office contacted to verify appointment and purpose of appointment:
-                            </div>
-                            <div class="col-lg-1  col-sm-1 ">
-                                <div class="radio radio-info briggs-xt-cntrl-grp">
-                                    <label for="PROVIDERS_OFFICE_CONTACTED_YES">
-                                        <input type="radio" id="PROVIDERS_OFFICE_CONTACTED_YES" name="PROVIDERS_OFFICE_CONTACTED" value="YES" />Yes
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-lg-1  col-sm-1">
-                               <div class="radio radio-info briggs-xt-cntrl-grp">
-                                <label for="PROVIDERS_OFFICE_CONTACTED_NO" >
-                                <input type="radio" id="PROVIDERS_OFFICE_CONTACTED_NO" name="PROVIDERS_OFFICE_CONTACTED" value="NO" />No</label>
-                            </div>
-							</div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2 col-sm-3  briggs-xt-cntrl-grp">
-                                <label for="DATE_CONTACTED"class="xt-f-thick-md" >  If Yes, date contacted</label>
-                            </div>
-                            <div class="col-lg-2  col-sm-2  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control " name="DATE_CONTACTED" id="DATE_CONTACTED" />
-                            </div>
-                            <div class="col-lg-2  col-sm-2 briggs-xt-cntrl-grp">
-                                <label for="BY_WHOM"class="xt-f-thick-md" >   By whom:</label>
-                            </div>
-                            <div class="col-lg-6 col-sm-5 briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="BY_WHOM" id="BY_WHOM" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2  col-sm-3 briggs-xt-cntrl-grp">
-                                <label for="EXPLAIN"class="xt-f-thick-md" >  If No, explain:</label>
-                            </div>
-                            <div class="col-lg-10 col-sm-9 briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="EXPLAIN" id="EXPLAIN" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <div class="col-lg-6   col-sm-8 checkbox checkbox-info">
-                                   
-                                    <label for="FACETOFACE_PROVIDED_LATER_30DAYS">
-                                    <input type="checkbox" id="FACETOFACE_PROVIDED_LATER_30DAYS" name="FACETOFACE_PROVIDED_LATER_30DAYS" />Face-to-face was provided later than 30 days <span style="text-decoration:underline">after initial SOC. </span></label>
-
-                                </div>
-                                <div class="col-lg-3  col-sm-5 ">
-                                    <label for="DATE_FACETOFACE_PROVIDED" >    Date Face-to-face was provided</label>
-                                </div>
-                                <div class="col-lg-3 col-sm-7  ">
-                                    <input type="text" class="form-control  briggs-xt-control" name="DATE_FACETOFACE_PROVIDED" id="DATE_FACETOFACE_PROVIDED" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2  col-sm-2  briggs-xt-cntrl-grp">
-                                <label for="RESET_SOC_DATE"class="xt-f-thick-md" > Reset SOC date:</label>
-                            </div>
-                            <div class="col-lg-2  col-sm-2  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="RESET_SOC_DATE" id="RESET_SOC_DATE" />
-                            </div>
-                            <div class="col-lg-3  col-sm-3  briggs-xt-cntrl-grp">
-                                <label for="PROVIDERS_NAME3"class="xt-f-thick-md" > Provider’s name (print):</label>
-                            </div>
-                            <div class="col-lg-3   col-sm-3  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control  briggs-xt-control" name="PROVIDERS_NAME3" id="PROVIDERS_NAME3" />
-                            </div>
-                            <div class="col-lg-1 col-sm-1   briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                <label for="NPI_NO4">   NPI#:</label>
-                            </div>
-                            <div class="col-lg-1 col-sm-1  briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="NPI_NO4" id="NPI_NO4" />
-                            </div>
-
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12  col-sm-12 hdr-box-top briggs-xt-cntrl-grp ">
-                                To be filled out by physician conducting the initial certification for homecare admission
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-4 ">
-                                <label class="xt-f-thick-md"> PHYSICIAN ATTESTATION</label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-1 col-sm-1 briggs-no-pad">
                                 <div class="checkbox checkbox-info">
-                                  
-                                    <label for="PHYSICIAN_ATTESTATION"class="xt-f-thick-md" >
-                                        <input type="checkbox" id="PHYSICIAN_ATTESTATION" name="PHYSICIAN_ATTESTATION" />
-                                        I certify <span>
-                                            that this patient is under my care and that I or an allowed NPP (a nurse practitioner, or a clinical nurse  specialist, or a physician’s assistant)
-                                            working with me, had a face-to-face encounter that meets the physician face-to-face encounter requirements on:
-                                        </span>
-                                    </label>  <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                             <label class="xt-f-thick-md"for="PHYSICIAN_ATTESTATION_DATE"> Date:</label>  
-                            </div>
-
-                            <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="PHYSICIAN_ATTESTATION_DATE" id="PHYSICIAN_ATTESTATION_DATE" />
-                            </div>
-                            <div class="col-lg-6 col-sm-7 briggs-xt-cntrl-grp">
-                                I have initiated the establishment of the plan of care.
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                The encounter with the patient was in whole, or in part, for the following medical condition, which is the primary
-                                reason for home health care (List medical conditions/include primary diagnosis):
-                                <textarea id="DIAG_AREA " class="form-control " name="DIAG_AREA"></textarea>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12">
-                                Based on the clinical findings, I certify the patient is homebound and that the following intermittent home care
-                                services are medically necessary: (Check all that apply)
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 ">
-                                <div class="col-lg-2  col-sm-3 checkbox checkbox-info briggs-xt-no-pad-r">
-                                    
-                                    <label for="NURSING">
-									<input type="checkbox" id="NURSING" name="NURSING" />Nursing Therapy:</label>
-                                </div>
-                                <div class="col-lg-1 col-sm-1 briggs-xt-no-pad">
-                                   <div class="checkbox checkbox-info">
                                     <label for="THERAPY_PT"><input type="checkbox" id="THERAPY_PT" name="THERAPY_PT" />PT</label>
                                 </div>
-								</div>
-                                <div class="col-lg-1 col-sm-1 checkbox checkbox-info briggs-xt-no-pad">
-                                   
-                                    <label for="THERAPY_SLP_SP"><input type="checkbox" id="THERAPY_SLP_SP" name="THERAPY_SLP_SP" />SLP/SP</label>
-                                </div>
+                            </div>
+                            <div class="col-lg-1 col-sm-1 checkbox checkbox-info briggs-no-pad">
+
+                                <label for="THERAPY_SLP_SP"><input type="checkbox" id="THERAPY_SLP_SP" name="THERAPY_SLP_SP" />SLP/SP</label>
                             </div>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2 col-sm-3 briggs-xt-no-pad-r briggs-xt-cntrl-grp">
-                                Additional qualified service:
-                            </div>
-                            <div class="col-lg-1 col-sm-1 briggs-xt-no-pad-r ">
-                               <div class="checkbox checkbox-info briggs-xt-cntrl-grp">
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2 col-sm-3 briggs-no-pad-r briggs-cntrl-grp">
+                            Additional qualified service:
+                        </div>
+                        <div class="col-lg-1 col-sm-1 briggs-no-pad-r ">
+                            <div class="checkbox checkbox-info briggs-cntrl-grp">
                                 <label for="ADDITIONAL_SERVICE_OT">
-                                <input type="checkbox" id="ADDITIONAL_SERVICE_OT" name="ADDITIONAL_SERVICE_OT" />OT</label>
+                                    <input type="checkbox" id="ADDITIONAL_SERVICE_OT" name="ADDITIONAL_SERVICE_OT" />OT
+                                </label>
                             </div>
-							  </div>
-                            <div class="col-lg-2  col-sm-2 briggs-xt-no-pad">
-                                <div class="checkbox checkbox-info briggs-xt-cntrl-grp">
-                                    <label for="ADDITIONAL_SERVICE_SOCIAL_WORKER">
-                                        <input type="checkbox" id="ADDITIONAL_SERVICE_SOCIAL_WORKER" name="ADDITIONAL_SERVICE_SOCIAL_WORKER" />Social Worker
+                        </div>
+                        <div class="col-lg-2  col-sm-2 briggs-no-pad">
+                            <div class="checkbox checkbox-info briggs-cntrl-grp">
+                                <label for="ADDITIONAL_SERVICE_SOCIAL_WORKER">
+                                    <input type="checkbox" id="ADDITIONAL_SERVICE_SOCIAL_WORKER" name="ADDITIONAL_SERVICE_SOCIAL_WORKER" />Social Worker
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3  col-sm-3 briggs-no-pad">
+                            <div class="checkbox checkbox-info  briggs-cntrl-grp">
+                                <label for="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE">
+                                    <input type="checkbox" id="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE" name="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE" />Home Health Aide
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            I have provided the home care agency with the following documentation to support the patient’s medical necessity
+                            and substantiate their homebound status. <br />(Check all that apply)
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-3  col-sm-4 checkbox checkbox-info">
+                                <label for="ENCOUNTER_VISIT_CLINICAL_NOTE">
+                                    <input type="checkbox" id="ENCOUNTER_VISIT_CLINICAL_NOTE" name="ENCOUNTER_VISIT_CLINICAL_NOTE" />Encounter visit clinical note
+                                </label>
+                            </div>
+                            <div class="col-lg-3  col-sm-4 ">
+                                <div class="checkbox checkbox-info">
+                                    <label for="PHYSICIAN_PROGRESS_NOTES">
+                                        <input type="checkbox" id="PHYSICIAN_PROGRESS_NOTES" name="PHYSICIAN_PROGRESS_NOTES" />Physician progress notes
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-lg-3  col-sm-3 briggs-xt-no-pad">
-                                <div class="checkbox checkbox-info  briggs-xt-cntrl-grp">
-                                    <label for="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE">
-                                        <input type="checkbox" id="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE" name="ADDITIONAL_SERVICE_HOME_HEALTH_AIDE" />Home Health Aide
+                            <div class="col-lg-3  col-sm-4 checkbox checkbox-info">
+
+                                <label for="DISCHARGE_SUMMARY">
+                                    <input type="checkbox" id="DISCHARGE_SUMMARY" name="DISCHARGE_SUMMARY" />Discharge summary
+                                </label>
+                            </div>
+                            <div class="col-lg-3   col-sm-4">
+                                <div class="checkbox checkbox-info">
+                                    <label for="HISTORY_PHYSICAL">
+                                        <input type="checkbox" id="HISTORY_PHYSICAL" name="HISTORY_PHYSICAL" />History and physical
                                     </label>
                                 </div>
                             </div>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12">
-                                I have provided the home care agency with the following documentation to support the patient’s medical necessity
-                                and substantiate their homebound status. <br />(Check all that apply)
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-3  col-sm-4 checkbox checkbox-info">                                 
-                                    <label for="ENCOUNTER_VISIT_CLINICAL_NOTE" >
-                                    <input type="checkbox" id="ENCOUNTER_VISIT_CLINICAL_NOTE" name="ENCOUNTER_VISIT_CLINICAL_NOTE" />Encounter visit clinical note</label>
-                                </div>
-                                <div class="col-lg-3  col-sm-4 ">
-                                  <div class="checkbox checkbox-info">
-                                    <label for="PHYSICIAN_PROGRESS_NOTES" >
-                                    <input type="checkbox" id="PHYSICIAN_PROGRESS_NOTES" name="PHYSICIAN_PROGRESS_NOTES" />Physician progress notes</label>
-                                </div>
-								   </div>
-                                <div class="col-lg-3  col-sm-4 checkbox checkbox-info">
-                                   
-                                    <label for="DISCHARGE_SUMMARY" >
-                                    <input type="checkbox" id="DISCHARGE_SUMMARY" name="DISCHARGE_SUMMARY" />Discharge summary</label>
-                                </div>
-                                <div class="col-lg-3   col-sm-4">
-                                    <div class="checkbox checkbox-info">
-                                        <label for="HISTORY_PHYSICAL">
-                                            <input type="checkbox" id="HISTORY_PHYSICAL" name="HISTORY_PHYSICAL" />History and physical
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-4 col-sm-5">
-                                   <div class="checkbox checkbox-info">
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-4 col-sm-5">
+                                <div class="checkbox checkbox-info">
                                     <label for="REPORTS">
-                                    <input type="checkbox" id="REPORTS" name="REPORT" />Reports (therapy, operative, etc.)</label>
-                                </div>
-								</div>
-                                <div class="col-lg-8 col-sm-7 ">
-                                    <input type="text" class="form-control  briggs-xt-control" name="REPORTS_SPECIFY" id="REPORTS_SPECIFY" />
+                                        <input type="checkbox" id="REPORTS" name="REPORT" />Reports (therapy, operative, etc.)
+                                    </label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 ">
-                                <div class="col-lg-4  col-sm-5 checkbox checkbox-info">
-                                  
-                                    <label for="OTHER" >
-                                    <input type="checkbox" id="OTHER" name="OTHER" />Other</label>
-                                </div>
-                                <div class="col-lg-8 col-sm-7 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control  briggs-xt-control" name="OTHER_SPECIFY" id="OTHER_SPECIFY" />
-                                </div>
+                            <div class="col-lg-8 col-sm-7 ">
+                                <input type="text" class="form-control  briggs-control" name="REPORTS_SPECIFY" id="REPORTS_SPECIFY" />
                             </div>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-2 col-sm-2 ">
-                                <label class="xt-f-thick-md"> Choose one:</label>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 ">
+                            <div class="col-lg-4  col-sm-5 checkbox checkbox-info">
+
+                                <label for="OTHER">
+                                    <input type="checkbox" id="OTHER" name="OTHER" />Other
+                                </label>
+                            </div>
+                            <div class="col-lg-8 col-sm-7 briggs-cntrl-grp">
+                                <input type="text" class="form-control  briggs-control" name="OTHER_SPECIFY" id="OTHER_SPECIFY" />
                             </div>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-10 col-sm-10  radio radio-info">
-                               
-                                <label for="CHOOSE_ONE_COMM_PHYSICIAN_CERTIFYING_PHYSICIAN" >
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-2 col-sm-2 ">
+                            <label class="xt-f-thick-md"> Choose one:</label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-10 col-sm-10  radio radio-info">
+
+                            <label for="CHOOSE_ONE_COMM_PHYSICIAN_CERTIFYING_PHYSICIAN">
                                 <input type="radio" id="CHOOSE_ONE_COMM_PHYSICIAN_CERTIFYING_PHYSICIAN" name="CHOOSE_ONE" value="CERTIFYING_PHYSICIAN" />
-                                I am the certifying physician, and I will periodically review the patient’s plan of care.</label>
-                            </div>
+                                I am the certifying physician, and I will periodically review the patient’s plan of care.
+                            </label>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-10 col-sm-11  radio radio-info">
-                                <label for="CHOOSE_ONE_COMM_PHYSICIAN_COMM_PHYSICIAN" >
-                                <input type="radio" id="CHOOSE_ONE_COMM_PHYSICIAN_COMM_PHYSICIAN" name="CHOOSE_ONE" value="COMM_PHYSICIAN" />The encounter findings were communicated to the patient’s community based physician,</label>
-                            </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-10 col-sm-11  radio radio-info">
+                            <label for="CHOOSE_ONE_COMM_PHYSICIAN_COMM_PHYSICIAN">
+                                <input type="radio" id="CHOOSE_ONE_COMM_PHYSICIAN_COMM_PHYSICIAN" name="CHOOSE_ONE" value="COMM_PHYSICIAN" />The encounter findings were communicated to the patient’s community based physician,
+                            </label>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3 col-sm-5 briggs-xt-cntrl-grp briggs-xt-no-pad-r">
-                             
-                                <div class="col-lg-10 col-sm-10 text-center briggs-xt-no-pad-r">
-                                    <label for="NAME_TITLE" > <input type="text" class="form-control " name="NAME_TITLE" id="NAME_TITLE" />  (name and title)</label>
-                                </div>                            
-                            </div>
-                            <div class="col-lg-7   col-sm-7  briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                who will be assuming the patient’s home health needs and   periodically reviewing the plan of care.<br />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <label> Physician, please sign, and return this form within 2 days</label>and attach copies of documentation. Lack of
-                                supporting documentation could adversely affect the patient’s ability to receive home care services.<label> See reverse side to review examples of required content.</label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp ">
-                                <label for="SIGN_A" >  Physician’s Signature:</label>
-                            </div>
-                            <div class="col-lg-4  col-sm-3 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control briggs-xt-control" name="SIGN_A" id="SIGN_A" />
-                            </div>
-                            <div class="col-lg-3 col-sm-3 briggs-xt-cntrl-grp ">
-                                <label for="DATE_SIGN_A" >    Date of Signature:</label>
-                            </div>
-                            <div class="col-lg-2 col-sm-2 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="DATE_SIGN_A" id="DATE_SIGN_A" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp ">
-                                <label for="NPI_NO5" >NPI#:</label>
-                            </div>
-                            <div class="col-lg-4  col-sm-3 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="NPI_NO5" id="NPI_NO5" />
-                            </div>
-                            <div class="col-lg-3 col-sm-3 briggs-xt-cntrl-grp ">
-                                <label for="PHONE_NUMBER" >Phone Number:</label>
-                            </div>
-                            <div class="col-lg-2 col-sm-2 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control  briggs-xt-control" name="PHONE_NUMBER" id="PHONE_NUMBER" />
-                            </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3 col-sm-5 briggs-cntrl-grp briggs-no-pad-r">
 
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-sec-header briggs-xt-sec-hdr-black ">
+                            <div class="col-lg-10 col-sm-10 text-center briggs-no-pad-r">
+                                <label for="NAME_TITLE"> <input type="text" class="form-control " name="NAME_TITLE" id="NAME_TITLE" />  (name and title)</label>
                             </div>
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-brd-thin-b  ">
-                            </div>
+                        <div class="col-lg-7   col-sm-7  briggs-cntrl-grp briggs-no-pad">
+                            who will be assuming the patient’s home health needs and   periodically reviewing the plan of care.<br />
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-8 col-sm-8  briggs-xt-brd-thin-r ">
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad-l  briggs-xt-cntrl-grp">
-
-                                        <div class="col-lg-4  col-sm-5 briggs-xt-no-pad-l briggs-xt-cntrl-grp">
-                                            <label for="NAME_LAST">PATIENT NAME–Last</label>
-                                            <input type="text" class="form-control briggs-xt-control" name="NAME_LAST" id="NAME_LAST" />
-                                        </div>
-                                        <div class="col-lg-4  col-sm-3 briggs-xt-no-pad-l briggs-xt-cntrl-grp">
-                                            <label for="NAME_LAST">First</label>
-                                            <input type="text" class="form-control briggs-xt-control" name="NAME_LAST" id="NAME_LAST" />
-                                        </div>
-                                        <div class="col-lg-4 col-sm-4 briggs-xt-no-pad-l briggs-xt-cntrl-grp">
-                                            <label for="NAME_MIDDLE"> Middle Initial</label>
-                                            <input type="text" class="form-control briggs-xt-control" name="NAME_MIDDLE" id="NAME_MIDDLE" />
-                                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <label> Physician, please sign, and return this form within 2 days</label>and attach copies of documentation. Lack of
+                            supporting documentation could adversely affect the patient’s ability to receive home care services.<label> See reverse side to review examples of required content.</label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3 col-sm-4 briggs-cntrl-grp ">
+                            <label for="SIGN_A">  Physician’s Signature:</label>
+                        </div>
+                        <div class="col-lg-4  col-sm-3 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control briggs-control" name="SIGN_A" id="SIGN_A" />
+                        </div>
+                        <div class="col-lg-3 col-sm-3 briggs-cntrl-grp ">
+                            <label for="DATE_SIGN_A">    Date of Signature:</label>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="DATE_SIGN_A" id="DATE_SIGN_A" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3 col-sm-4 briggs-cntrl-grp ">
+                            <label for="NPI_NO5">NPI#:</label>
+                        </div>
+                        <div class="col-lg-4  col-sm-3 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="NPI_NO5" id="NPI_NO5" />
+                        </div>
+                        <div class="col-lg-3 col-sm-3 briggs-cntrl-grp ">
+                            <label for="PHONE_NUMBER">Phone Number:</label>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control  briggs-control" name="PHONE_NUMBER" id="PHONE_NUMBER" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-sec-header briggs-sec-hdr-black ">
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-brd-thin-b  ">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-8 col-sm-8  briggs-brd-thin-r ">
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad-l  briggs-cntrl-grp">
+                                    <div class="col-lg-4  col-sm-5 briggs-no-pad-l briggs-cntrl-grp">
+                                        <label for="NAME_LAST">PATIENT NAME–Last</label>
+                                        <input type="text" class="form-control briggs-control" name="NAME_LAST" id="NAME_LAST" />
+                                    </div>
+                                    <div class="col-lg-4  col-sm-3 briggs-no-pad-l briggs-cntrl-grp">
+                                        <label for="NAME_FIRST">First</label>
+                                        <input type="text" class="form-control briggs-control" name="NAME_FIRST" id="NAME_FIRST" />
+                                    </div>
+                                    <div class="col-lg-4 col-sm-4 briggs-no-pad-l briggs-cntrl-grp">
+                                        <label for="NAME_MIDDLE"> Middle Initial</label>
+                                        <input type="text" class="form-control briggs-control" name="NAME_MIDDLE" id="NAME_MIDDLE" />
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-4  briggs-cntrl-grp">
+                                <label for="RECORD_NO" class="xt-f-thick-md"> ID#</label> <input type="text" class="form-control briggs-control" name="RECORD_NO" id="RECORD_NO" />
+                            </div>
 
-                                <div class="col-lg-4 col-sm-4  briggs-xt-cntrl-grp">
-                                   <label for="RECORD_NO"class="xt-f-thick-md"> ID#</label> <input type="text" class="form-control briggs-xt-control" name="RECORD_NO" id="RECORD_NO" />
-                                </div>
-                                
+                        </div>
+                    </div>
+                </div>
+                <!--page 1 ends here-->
+
+                <!--paging-->
+                <div class="row">
+
+                    <div class="col-lg-12 col-sm-12 briggs-pad-thick briggs-f-thick briggs-cntrl-grp text-center">
+                        --- Page 1 of 2 ---
+                    </div>
+                </div>
+                <!--paging-->
+
+                <!--page 2 starts here-->
+                <div class="col-lg-12 col-sm-12 briggs-content-box briggs-box-square briggs-no-pad-l briggs-no-pad-r">
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            Effective April 1, 2011, the Centers for Medicare & Medicaid Services (CMS) expect home health agencies to comply with the face-to-face
+                            encounter requirements mandated by the Affordable Care Act (ACA) for purposes of certification of a patient’s eligibility for Medicare home health
+                            services. The encounter and documentation are a condition of payment.
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-7 col-sm-9 briggs-f-thick">
+                             DEFINITIONS AND DIRECTIONS: (This information is not all-inclusive)
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3   col-sm-3 briggs-f-thick ">
+                            Clinical Findings: 
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            Describe the patient’s condition and symptoms, not just a list of diagnoses. Explain if this is a new problem or an
+                            exacerbation of a previous problem.
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-5 col-sm-6 briggs-cntrl-grp">
+                            If this is a post-operative patient, for example:
+                            <div class="col-lg-12 col-sm-12">
+                                • How long ago was the surgery?
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                • Were there any complications?
                             </div>
                         </div>
                     </div>
-
-
-
-                    <div class="col-lg-12 col-sm-12 briggs-xt-content-box briggs-xt-box-square briggs-xt-no-pad-l briggs-xt-no-pad-r">
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                Effective April 1, 2011, the Centers for Medicare & Medicaid Services (CMS) expect home health agencies to comply with the face-to-face
-                                encounter requirements mandated by the Affordable Care Act (ACA) for purposes of certification of a patient’s eligibility for Medicare home health
-                                services. The encounter and documentation are a condition of payment.
-                            </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-4 briggs-f-thick">
+                            Skilled Services Need:
                         </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-7 col-sm-9">
-                                <label class="xt-f-thick-md"> DEFINITIONS AND DIRECTIONS: (This information is not all-inclusive)</label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3   col-sm-3  ">
-                                <label class="xt-f-thick-md"> Clinical Findings: </label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-8 col-sm-8 ">
+                            Is there evidence that skilled therapy service (PT, OT, SLP) is needed? For example:
                             <div class="col-lg-12 col-sm-12">
-                                Describe the patient’s condition and symptoms, not just a list of diagnoses. Explain if this is a new problem or an
-                                exacerbation of a previous problem.
+                                • Assessment of functional deficits and home safety evaluation
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-5 col-sm-6 briggs-xt-cntrl-grp">
-                                If this is a post-operative patient, for example:
-                                <div class="col-lg-12 col-sm-12">
-                                    • How long ago was the surgery?
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Were there any complications?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-4">
-                                <label class="xt-f-thick-md">Skilled Services Need:</label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-8 col-sm-8 ">
-                                Is there evidence that skilled therapy service (PT, OT, SLP) is needed? For example:
-                                <div class="col-lg-12 col-sm-12">
-                                    • Assessment of functional deficits and home safety evaluation
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Therapeutic exercises
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Restore joint function for post joint replacement
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Gait training
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • ADL training
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Therapeutic exercise to improve swallowing
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Therapeutic exercise to improve language function
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    • Therapeutic exercise to improve cognitive function
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-8 col-sm-8 briggs-xt-cntrl-grp">
-                                Is there evidence that Nursing is needed?
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-5 briggs-xt-cntrl-grp">
-                                <label for="P2_ASS"class="xt-f-thick-md"> • Assessment and observation for:</label> 
-                            </div>
-                            <div class="col-lg-9 col-sm-7  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control briggs-xt-control" name="P2_ASS" id="P2_ASS" />
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3 col-sm-5 briggs-xt-cntrl-grp">
-                              <label for="P2_TEACH" class="xt-f-thick-md">• Teaching and training for:</label>  
-                            </div>
-                            <div class="col-lg-9 col-sm-7  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control briggs-xt-control" name="P2_TEACH" id="P2_TEACH" />
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-4 col-sm-6 briggs-xt-cntrl-grp">
-                                • Complex wound assessment and care:
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-5 col-sm-5 briggs-xt-cntrl-grp">
-                                • Management of new/changed medications:
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-5 briggs-xt-cntrl-grp">
-                                <label for="P2_CARE"class="xt-f-thick-md">  • Direct nursing care for:</label>
-                            </div>
-                            <div class="col-lg-9 col-sm-7  briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control briggs-xt-control" name="P2_CARE"id="P2_CARE"/>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3   col-sm-3  ">
-                                <label class="xt-f-thick-md">Homebound Status:</label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                Description should not be limited to weakness, considerable and taxing effort, poor endurance. Include a description
-                                of the patient's condition and symptoms, not just a diagnosis and not just the need for an assistive device. Patient
-                                does not have to be bedridden.
+                                • Therapeutic exercises
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-3 ">
-                                For example:
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                • If shortness of breath is applicable, describe the severity (severe at rest, with minimal exertion, etc.)
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-3  col-sm-5 briggs-xt-cntrl-grp">
-                                <label for="P2_WEAK" class="xt-f-thick-md">   • Weakness as evidenced by:</label> 
-                            </div>
-                            <div class="col-lg-9  col-sm-7 briggs-xt-cntrl-grp">
-                                <input type="text" class="form-control briggs-xt-control" id="P2_WEAK" name="P2_WEAK" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-6   col-sm-9">
-                                • Patient is homebound due to a psychiatric condition/symptoms
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-10 col-sm-11 briggs-xt-cntrl-grp">
-                                • Patient exhibits symptoms when attempting to walk (increase pain, shortness of breath, etc.)
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-5 col-sm-6 briggs-xt-no-pad-r briggs-xt-cntrl-grp">
-                                <label for="P2_REST" class="xt-f-thick-md">• The patient is medically restricted to their home due to:</label>  
-                            </div>
-                            <div class="col-lg-7 col-sm-6 briggs-xt-cntrl-grp briggs-xt-no-pad-l">
-                                <input type="text" class="form-control briggs-xt-control" id="P2_REST" name="P2_REST" />
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-4  col-sm-">
-                                <label class="xt-f-thick-md">The physician must certify that: </label>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                1. The home health services are needed because the patient is confined to the home (homebound).
+                                • Restore joint function for post joint replacement
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                2. The patient needs skilled nursing services on an intermittent basis (other than solely venipuncture for the purposes of obtaining a blood
-                                sample), or physical therapy, or speech-language pathology services; or continues to need occupational therapy after the need for skilled
-                                nursing care, physical therapy, or speech language pathology services ceased. Where a patient’s sole skilled service need is for skilled
-                                oversight of unskilled services (management and evaluation of the care plan as defined in §40.1.2.2), the physician must include a brief
-                                narrative describing the clinical justification of this need as part of the certification and recertification, or as a signed addendum to the
-                                certification and recertification;
+                                • Gait training
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                3. A plan of care has been established and is periodically reviewed by a physician;
+                                • ADL training
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                4. The services are or were furnished while the patient is or was under the care of a physician;
+                                • Therapeutic exercise to improve swallowing
                             </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
                             <div class="col-lg-12 col-sm-12">
-                                5. For episodes with starts of care beginning January 1, 2011 and later, prior to initially certifying the home health patient’s eligibility, the
-                                certifying physician must document that he or she, or an allowed non-physician practitioner (NPP) had a face-to-face.
+                                • Therapeutic exercise to improve language function
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <label class="xt-f-md">For more details see 30.5.1 – Content of the Physician Certification (Rev. 139, Issued: 02-16-11, Effective: 01-01-11, Implementation: 03-10-11)</label>
+                            <div class="col-lg-12 col-sm-12">
+                                • Therapeutic exercise to improve cognitive function
                             </div>
                         </div>
                     </div>
-
-
-                        <div class="col-lg-12 col-sm-12 briggs-xt-pg-footer">
-                            <div class="row briggs-xt-cont-row">
-                                <div class="col-lg-6  col-sm-6 briggs-xt-no-pad">
-                                    <span class="briggs-xt-foot-fcode">Form 3401</span>
-                                    <span class="briggs-xt-foot-cr">Rev. 11/09</span>
-                                    <span class="briggs-xt-foot-cr">© BRIGGS, Des Moines, IA (800) 247-2343</span>
-                                    <span class="briggs-xt-foot-cr briggs-xt-foot-cr2">Unauthorized copying or use violates copyright law. www.BriggsCorp.com PRINTED IN U.S.A.</span>
-                                </div>
-                                <div class="col-lg-2 col-sm-2 briggs-xt-no-pad">
-                                    <img src="../../Content/images/logo/briggs-logo.png">
-                                </div>
-                                <div class="col-lg-4  col-sm-4 briggs-xt-no-pad text-right">
-                                    <span class="briggs-xt-foot-fname"> FACE TO FACE ENCOUNTER FOR HOME CARE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12  col-sm-12">
-                                <div class="briggs-xt-cntrl-grp col-lg-2  col-sm-3 briggs-xt-pg-btn">
-                                    <button type="submit" class="btn btn-block btn-primary" name="SUBMIT_TO_WEB" id="SUBMIT_TO_WEB"><i class="fa fa-floppy-o" aria-hidden="true"></i>Save to Web</button>
-                                </div>
-                            </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-8 col-sm-8 briggs-cntrl-grp">
+                            Is there evidence that Nursing is needed?
                         </div>
                     </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-5 briggs-cntrl-grp">
+                            <label for="P2_ASS" class="xt-f-thick-md"> • Assessment and observation for:</label>
+                        </div>
+                        <div class="col-lg-9 col-sm-7  briggs-cntrl-grp">
+                            <input type="text" class="form-control briggs-control" name="P2_ASS" id="P2_ASS" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3 col-sm-5 briggs-cntrl-grp">
+                            <label for="P2_TEACH" class="xt-f-thick-md">• Teaching and training for:</label>
+                        </div>
+                        <div class="col-lg-9 col-sm-7  briggs-cntrl-grp">
+                            <input type="text" class="form-control briggs-control" name="P2_TEACH" id="P2_TEACH" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-4 col-sm-6 briggs-cntrl-grp">
+                            • Complex wound assessment and care:
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-5 col-sm-5 briggs-cntrl-grp">
+                            • Management of new/changed medications:
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-5 briggs-cntrl-grp">
+                            <label for="P2_CARE" class="xt-f-thick-md">  • Direct nursing care for:</label>
+                        </div>
+                        <div class="col-lg-9 col-sm-7  briggs-cntrl-grp">
+                            <input type="text" class="form-control briggs-control" name="P2_CARE" id="P2_CARE" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3   col-sm-3  briggs-f-thick">
+                          Homebound Status:
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            Description should not be limited to weakness, considerable and taxing effort, poor endurance. Include a description
+                            of the patient's condition and symptoms, not just a diagnosis and not just the need for an assistive device. Patient
+                            does not have to be bedridden.
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-3 ">
+                            For example:
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            • If shortness of breath is applicable, describe the severity (severe at rest, with minimal exertion, etc.)
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-3  col-sm-5 briggs-cntrl-grp">
+                            <label for="P2_WEAK" class="xt-f-thick-md">   • Weakness as evidenced by:</label>
+                        </div>
+                        <div class="col-lg-9  col-sm-7 briggs-cntrl-grp">
+                            <input type="text" class="form-control briggs-control" id="P2_WEAK" name="P2_WEAK" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-6   col-sm-9">
+                            • Patient is homebound due to a psychiatric condition/symptoms
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-10 col-sm-11 briggs-cntrl-grp">
+                            • Patient exhibits symptoms when attempting to walk (increase pain, shortness of breath, etc.)
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-5 col-sm-6 briggs-no-pad-r briggs-cntrl-grp">
+                            <label for="P2_REST" class="xt-f-thick-md">• The patient is medically restricted to their home due to:</label>
+                        </div>
+                        <div class="col-lg-7 col-sm-6 briggs-cntrl-grp briggs-no-pad-l">
+                            <input type="text" class="form-control briggs-control" id="P2_REST" name="P2_REST" />
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-4  col-sm-">
+                            <label class="xt-f-thick-md">The physician must certify that: </label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            1. The home health services are needed because the patient is confined to the home (homebound).
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            2. The patient needs skilled nursing services on an intermittent basis (other than solely venipuncture for the purposes of obtaining a blood
+                            sample), or physical therapy, or speech-language pathology services; or continues to need occupational therapy after the need for skilled
+                            nursing care, physical therapy, or speech language pathology services ceased. Where a patient’s sole skilled service need is for skilled
+                            oversight of unskilled services (management and evaluation of the care plan as defined in §40.1.2.2), the physician must include a brief
+                            narrative describing the clinical justification of this need as part of the certification and recertification, or as a signed addendum to the
+                            certification and recertification;
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            3. A plan of care has been established and is periodically reviewed by a physician;
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            4. The services are or were furnished while the patient is or was under the care of a physician;
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12">
+                            5. For episodes with starts of care beginning January 1, 2011 and later, prior to initially certifying the home health patient’s eligibility, the
+                            certifying physician must document that he or she, or an allowed non-physician practitioner (NPP) had a face-to-face.
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <label class="xt-f-md">For more details see 30.5.1 – Content of the Physician Certification (Rev. 139, Issued: 02-16-11, Effective: 01-01-11, Implementation: 03-10-11)</label>
+                        </div>
+                    </div>
+                </div>
+                <!--page 2 starts here-->
+
+               
+
+                <!--footer starts here-->
+                <div class="col-lg-12 col-sm-12 briggs-pg-footer">
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-6  col-sm-6 briggs-no-pad">
+                            <span class="briggs-foot-fcode">Form 3401</span>
+                            <span class="briggs-foot-cr">Rev. 11/09</span>
+                            <span class="briggs-foot-cr">© BRIGGS, Des Moines, IA (800) 247-2343</span>
+                            <span class="briggs-foot-cr briggs-foot-cr2">Unauthorized copying or use violates copyright law. www.BriggsCorp.com PRINTED IN U.S.A.</span>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 briggs-no-pad">
+                            <img src="../../Content/images/logo/briggs-logo.png" alt="">
+                        </div>
+                        <div class="col-lg-4  col-sm-4 briggs-no-pad text-right">
+                            <span class="briggs-foot-fname"> FACE TO FACE ENCOUNTER FOR HOME CARE</span>
+                        </div>
+                    </div>
+                </div>
+                <!--footer ends here-->
+
+                <!--paging-->
+                <div class="row">
+
+                    <div class="col-lg-12 col-sm-12 briggs-pad-thick briggs-f-thick briggs-cntrl-grp text-center">
+                        --- Page 2 of 2 ---
+                    </div>
+                </div>
+                <!--paging-->
             </div>
         </div>
-        <input type="hidden" name="ACCOUNT_NAME" />
-        <input type="hidden" name="ACCOUNT_NAME" />
-        <input type="hidden" name="ACCOUNT_ADDRESS1" />
-        <input type="hidden" name="ACCOUNT_ADDRESS2" />
-        <input type="hidden" name="ACCOUNT_PHONE" />
-        <input type="hidden" name="FORM_UUID" />
-        <input type="hidden" name="FORM_NAME" />
-        <input type="hidden" name="FORM_REV" />
-
-    </form>
-
-
+    </div>
+    <!--your hidden fields comes here-->
+    <input type="hidden" name="ACCOUNT_NAME" />
+    <input type="hidden" name="ACCOUNT_NAME" />
+    <input type="hidden" name="ACCOUNT_ADDRESS1" />
+    <input type="hidden" name="ACCOUNT_ADDRESS2" />
+    <input type="hidden" name="ACCOUNT_PHONE" />
+    <input type="hidden" name="FORM_UUID" />
+    <input type="hidden" name="FORM_NAME" />
+    <input type="hidden" name="FORM_REV" />
+    <!--your hidden fields ends here-->
+    <!--form ends here-->
 </body>
 </html>

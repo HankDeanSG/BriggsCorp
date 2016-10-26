@@ -11,585 +11,567 @@
     <script src="../../Scripts/match-height/jquery.matchHeight-min.js"></script>
     <script src="../../Scripts/page/common.js"></script>
     <title> PHYSICIAN VERBAL ORDERS</title>
-    <title></title>
-    <meta charset="utf-8" />
 </head>
-<body  class="test-rows">
-    <form name="4187">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">                    
+<body class="test-rows">
+    <!--form starts here-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <!--header starts here-->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 briggs-fr">
+                        <div class="col-lg-12 col-sm-12 briggs-pg-title briggs-title-r">
+                            PHYSICIAN VERBAL ORDERS
+                        </div>
+                        <div class="col-lg-5 col-sm-4">
+                            <div class="radio radio-info briggs-cntrl-grp">
+                                <label for="ORDER_TYPE_HOME_CARE">
+                                    <input id="ORDER_TYPE_HOME_CARE" type="radio" name="ORDER_TYPE" value="HOME_CARE">
+                                    Home Care
+                                </label>
+                            </div>
+                            <div class="radio radio-info">
+                                <label for="ORDER_TYPE_HOSPICE">
+                                    <input id="ORDER_TYPE_HOSPICE" type="radio" name="ORDER_TYPE" value="HOSPICE">
+                                    Hospice
+                                </label>
+                            </div>
+                            <div class="radio radio-info">
+                                <label for="ORDER_TYPE_OTHER">
+                                    <input id="ORDER_TYPE_OTHER" type="radio" name="ORDER_TYPE" value="OTHER">
+                                    Other
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-sm-5 briggs-no-pad briggs-fr">
+                            <div class="radio radio-info  briggs-cntrl-grp">
+                                <label for="ORDER_TYPE_INFUSION">
+                                    <input id="ORDER_TYPE_INFUSION" type="radio" name="ORDER_TYPE" value="INFUSION">
+                                    Infusion
+                                </label>
+                            </div>
+                            <div class="radio radio-info  briggs-cntrl-grp">
+                                <label for="ORDER_TYPE_PRIVATE_DUTY">
+                                    <input id="ORDER_TYPE_PRIVATE_DUTY" type="radio" name="ORDER_TYPE" value="PRIVATE_DUTY">
+                                    Private Duty
+                                </label>
+                            </div>
+                            <input type="text" class="form-control briggs-control" name="OTHER_ORDER_SPECIFY" />
+                        </div>
+                    </div>
+                </div>
+                <!--header ends here-->
+                <!--page starts here-->
+                <div class="briggs-content-box briggs-box-square briggs-no-pad">
                     <div class="row">
-                        <div class="col-lg-4 col-sm-6 briggs-xt-fr">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-pg-title briggs-xt-title-r">
-                                PHYSICIAN VERBAL ORDERS
-
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-3 col-sm-4 briggs-cntrl-grp">
+                                <label class="briggs-txt-u-l briggs-cntrl-grp">
+                                    Mark the applicable order:
+                                </label>
                             </div>
-                            <div class="col-lg-5 col-sm-4">
-                                <div class="radio radio-info briggs-xt-cntrl-grp">
-
-                                    <label for="ORDER_TYPE_HOME_CARE">
-                                        <input id="ORDER_TYPE_HOME_CARE" type="radio" name="ORDER_TYPE" value="HOME_CARE">
-                                        Home Care
-                                    </label>
-                                </div>
+                            <div class="col-lg-2 col-sm-3 briggs-cntrl-grp">
                                 <div class="radio radio-info">
-
-                                    <label for="ORDER_TYPE_HOSPICE">
-                                        <input id="ORDER_TYPE_HOSPICE" type="radio" name="ORDER_TYPE" value="HOSPICE">
-                                        Hospice
-                                    </label>
-                                </div>
-                                <div class="radio radio-info">
-
-                                    <label for="ORDER_TYPE_OTHER">
-                                        <input id="ORDER_TYPE_OTHER" type="radio" name="ORDER_TYPE" value="OTHER">
-                                        Other
+                                    <label for="APPLICABLE_ORDER_REQUEST_FOR_ORDER">
+                                        <input id="APPLICABLE_ORDER_REQUEST_FOR_ORDER" type="radio" name="APPLICABLE_ORDER" value="REQUEST_FOR_ORDER">
+                                        Request for order
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-sm-5 briggs-xt-no-pad briggs-xt-fr">
-                                <div class="radio radio-info  briggs-xt-cntrl-grp">
-                                    <label for="ORDER_TYPE_INFUSION">
-                                        <input id="ORDER_TYPE_INFUSION" type="radio" name="ORDER_TYPE" value="INFUSION">
-                                        Infusion
+                            <div class="col-lg-2 col-sm-2 briggs-cntrl-grp">
+                                <div class="radio radio-info">
+                                    <label for="APPLICABLE_ORDER_VERBAL_ORDER">
+                                        <input id="APPLICABLE_ORDER_VERBAL_ORDER" type="radio" name="APPLICABLE_ORDER" value="VERBAL_ORDER">
+                                        Verbal order
                                     </label>
                                 </div>
-                                <div class="radio radio-info  briggs-xt-cntrl-grp">
-                                    <label for="ORDER_TYPE_PRIVATE_DUTY">
-                                        <input id="ORDER_TYPE_PRIVATE_DUTY" type="radio" name="ORDER_TYPE" value="PRIVATE_DUTY">
-                                        Private Duty
+                            </div>
+                            <div class="col-lg-3 col-sm-3 briggs-cntrl-grp">
+                                <div class="radio radio-info">
+                                    <label for="APPLICABLE_ORDER_VERBAL_ORDER_READ_BACK">
+                                        <input id="APPLICABLE_ORDER_VERBAL_ORDER_READ_BACK" type="radio" name="APPLICABLE_ORDER" value="VERBAL_ORDER_READ_BACK">
+                                        Verbal order read back
                                     </label>
                                 </div>
-                                <input type="text" class="form-control briggs-xt-control" name="OTHER_ORDER_SPECIFY" />
                             </div>
                         </div>
                     </div>
-                    <div class="briggs-xt-content-box briggs-xt-box-square briggs-xt-no-pad">
-                        <div class="row">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-3 col-sm-3 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md" for="ACCOUNT_NAME">Agency Name</label>
+                            </div>
+                            <div class="col-lg-9 col-sm-9 briggs-cntrl-grp">
+                                <input type="text" class="form-control briggs-control" name="ACCOUNT_NAME" id="ACCOUNT_NAME" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <div class="col-lg-3 col-sm-3 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md" for="ACCOUNT_PHONE">Phone #:</label>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 briggs-cntrl-grp">
+                                <input type="text" class="form-control briggs-control" name="ACCOUNT_PHONE" id="ACCOUNT_PHONE" />
+                            </div>
+                            <div class="col-lg-1 col-sm-2 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md" for="ACCOUNT_FAX">FAX #:</label>
+                            </div>
+                            <div class="col-lg-4 col-sm-3 briggs-cntrl-grp">
+                                <input type="text" class="form-control briggs-control" name="ACCOUNT_FAX" id="ACCOUNT_FAX" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-brd-thick-b"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-8 briggs-no-pad-r briggs-cntrl-grp">
+                            <div class="col-lg-3 col-sm-4 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md" for="NAME_LAST">Patient Name (print):</label>
+                            </div>
+                            <div class="col-lg-9 col-sm-8 briggs-cntrl-grp">
+                                <div class="col-lg-4 col-sm-3 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="NAME_LAST" id="NAME_LAST" />LAST
+                                </div>
+                                <div class="col-lg-4 col-sm-3 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="NAME_FIRST" />FIRST
+                                </div>
+                                <div class="col-lg-4 col-sm-3 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="NAME_MIDDLE" /> MI
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-4 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md" for="NAME_PHYSICIAN"> Physician Name (print):</label>
+                            </div>
+                            <div class="col-lg-9 col-sm-8 briggs-cntrl-grp">
+                                <div class="col-lg-12 col-sm-12">
+                                    <input type="text" class="form-control briggs-control" name="NAME_PHYSICIAN" id="NAME_PHYSICIAN" />
+                                    <div class="col-lg-4 col-sm-4">LAST</div>
+                                    <div class="col-lg-4 col-sm-4">FIRST</div>
+                                    <div class="col-lg-4 col-sm-4">MI</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 briggs-cntrl-grp">
                             <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp">
-                                    <label class="briggs-xt-txt-u-l briggs-xt-cntrl-grp">
-                                        Mark the applicable order:
-                                    </label>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="RECORD_NO">Patient ID Number:</label>
                                 </div>
-                                <div class="col-lg-2 col-sm-3 briggs-xt-cntrl-grp">
-                                    <div class="radio radio-info">
-                                        <label for="APPLICABLE_ORDER_REQUEST_FOR_ORDER">
-                                            <input id="APPLICABLE_ORDER_REQUEST_FOR_ORDER" type="radio" name="APPLICABLE_ORDER" value="REQUEST_FOR_ORDER">
-                                            Request for order
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-sm-2 briggs-xt-cntrl-grp">
-                                    <div class="radio radio-info">
-                                        <label for="APPLICABLE_ORDER_VERBAL_ORDER">
-                                            <input id="APPLICABLE_ORDER_VERBAL_ORDER" type="radio" name="APPLICABLE_ORDER" value="VERBAL_ORDER">
-                                            Verbal order
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-3 briggs-xt-cntrl-grp">
-                                    <div class="radio radio-info">
-                                        <label for="APPLICABLE_ORDER_VERBAL_ORDER_READ_BACK">
-                                            <input id="APPLICABLE_ORDER_VERBAL_ORDER_READ_BACK" type="radio" name="APPLICABLE_ORDER" value="VERBAL_ORDER_READ_BACK">
-                                            Verbal order read back
-                                        </label>
-                                    </div>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="RECORD_NO" id="RECORD_NO" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-3 col-sm-3 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md" for="ACCOUNT_NAME">Agency Name</label>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="BIRTH_DATE">DOB</label>
                                 </div>
-                                <div class="col-lg-9 col-sm-9 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control briggs-xt-control" name="ACCOUNT_NAME" id="ACCOUNT_NAME" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <div class="col-lg-3 col-sm-3 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md" for="ACCOUNT_PHONE">Phone #:</label>
-                                </div>
-                                <div class="col-lg-4 col-sm-4 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control briggs-xt-control" name="ACCOUNT_PHONE" id="ACCOUNT_PHONE" />
-                                </div>
-                                <div class="col-lg-1 col-sm-2 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md" for="ACCOUNT_FAX">FAX #:</label>
-                                </div>
-                                <div class="col-lg-4 col-sm-3 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control briggs-xt-control" name="ACCOUNT_FAX" id="ACCOUNT_FAX" />
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="BIRTH_DATE" id="BIRTH_DATE" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-brd-thick-b"></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-8 col-sm-8 no-pad-l briggs-xt-cntrl-grp">
-                                <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md" for="NAME_LAST">Patient Name (print):</label>
-                                </div>
-                                <div class="col-lg-9 col-sm-8 briggs-xt-cntrl-grp">
-                                    <div class="col-lg-4 col-sm-3 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="NAME_LAST" id="NAME_LAST" />LAST
-                                    </div>
-                                    <div class="col-lg-4 col-sm-3 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="NAME_FIRST" />FIRST
-                                    </div>
-                                    <div class="col-lg-4 col-sm-3 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="NAME_MIDDLE" /> MI
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md" for="NAME_PHYSICIAN"> Physician Name (print):</label>
-                                </div>
-                                <div class="col-lg-9 col-sm-8 briggs-xt-cntrl-grp">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <input type="text" class="form-control briggs-xt-control" name="NAME_PHYSICIAN" id="NAME_PHYSICIAN" />
-                                        <div class="col-lg-4 col-sm-4">LAST</div>
-                                        <div class="col-lg-4 col-sm-4">FIRST</div>
-                                        <div class="col-lg-4 col-sm-4">MI</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-sm-4 briggs-xt-cntrl-grp">
-                                <div class="col-lg-12 col-sm-12">
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="RECORD_NO">Patient ID Number:</label>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="RECORD_NO" id="RECORD_NO" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="BIRTH_DATE">DOB</label>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="BIRTH_DATE" id="BIRTH_DATE" />
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-sm-12">
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="PHONE_DR">Phone #: </label>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="PHONE_DR" id="PHONE_DR" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-sm-12">
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="FAX_NO">FAX #</label>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 briggs-xt-cntrl-grp">
-                                        <input type="text" class="form-control briggs-xt-control" name="FAX_NO" id="FAX_NO" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-brd-thick-b briggs-xt-brd-thick-t briggs-xt-sec-header briggs-xt-sec-hdr-gray briggs-xt-txt-b briggs-xt-no-pad">
-                                <div class="col-lg-2 col-sm-2  text-center briggs-xt-brd-thin-r">
-
-                                    <label class="xt-f-thick-md">      DATE </label>
-
-                                </div>
-                                <div class="col-lg-1 col-sm-1 briggs-xt-brd-thin-r">
-                                    <label class="xt-f-thick-md"> TIME</label>
-                                </div>
-                                <div class="col-lg-9 col-sm-9  text-center ">
-                                    <label class="xt-f-thick-md">  ORDERS </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12   items-container briggs-xt-no-pad">
-                                <div class="col-lg-2 col-sm-2 briggs-xt-brd-thin-r   item briggs-xt-no-pad">
-
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE1" id="DATE1" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE2" id="DATE2" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE3" id="DATE3" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE4" id="DATE4" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE5" id="DATE5" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE6" id="DATE6" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE7" id="DATE7" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE8" id="DATE8" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE9" id="DATE9" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE10" id="DATE10" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE11" id="DATE11" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE12" id="DATE12" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE13" id="DATE13" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE14" id="DATE14" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE15" id="DATE15" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE16" id="DATE16" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE17" id="DATE17" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE18" id="DATE18" />
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-1 col-sm-1 briggs-xt-brd-thin-r  briggs-xt-no-pad item">
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME1" id="TIME1" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME2" id="TIME2" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME3" id="TIME3" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME4" id="TIME4" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME5" id="TIME5" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME6" id="TIME6" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME7" id="TIME7" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME8" id="TIME8" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME9" id="TIME9" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME10" id="TIME10" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME11" id="TIME11" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME12" id="TIME12" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME13" id="TIME13" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME14" id="TIME14" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME15" id="TIME15" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME16" id="TIME16" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME17" id="TIME17" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="TIME18" id="TIME18" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-sm-9  item  briggs-xt-brd-thin-r briggs-xt-no-pad">
-
-
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS1" id="ORDERS1" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS2" id="ORDERS2" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS3" id="ORDERS3" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS4" id="ORDERS4" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS5" id="ORDERS5" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS6" id="ORDERS6" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS7" id="ORDERS7" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS8" id="ORDERS8" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS9" id="ORDERS9" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS10" id="ORDERS10" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS11" id="ORDERS11" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS12" id="ORDERS12" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS13" id="ORDERS13" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS14" id="ORDERS14" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS15" id="ORDERS15" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS16" id="ORDERS16" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS17" id="ORDERS17" />
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-no-pad briggs-xt-brd-thin-b">
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="ORDERS18" id="ORDERS18" />
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <label class="xt-f-thick-md">Thank you. </label>
-                            </div>
-                            <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                <div class="col-lg-3 col-sm-4 briggs-xt-cntrl-grp ">
-                                    <label class="xt-f-thick-md" for="SIGN_A">Clinician Signature/Title</label>
-                                </div>
-                                <div class="col-lg-4 col-sm-3 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control briggs-xt-control" name="SIGN_A" id="SIGN_A" />
-                                </div>
-                                <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp">
-                                    <label class="xt-f-thick-md">V.O.</label>
-                                </div>
-                                <div class="col-lg-1 col-sm-1 briggs-xt-cntrl-grp ">
-                                    <label class="xt-f-thick-md" for="DATE_SIGN_A">Date</label>
-                                </div>
-                                <div class="col-lg-3 col-sm-2 briggs-xt-cntrl-grp">
-                                    <input type="text" class="form-control briggs-xt-control" name="DATE_SIGN_A" id="DATE_SIGN_A" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-sec-header briggs-xt-sec-hdr-gray briggs-xt-sec-divider briggs-xt-txt-b text-center">
-                                <label class="xt-f-thick-md">Physician, please sign and return within 2 days.</label>
-
-                            </div>
-                        </div>
-
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-12 col-sm-12 briggs-xt-sec-divider ">
-
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-lg-12 col-sm-12">
-                                <div class="col-lg-8 col-sm-8 briggs-xt-brd-thin-r ">
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="SIGN_B">PHYSICIAN SIGNATURE</label>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="PHONE_DR">Phone #: </label>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="PHONE_DR" id="PHONE_DR" />
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="FAX_NO">FAX #</label>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 briggs-cntrl-grp">
+                                    <input type="text" class="form-control briggs-control" name="FAX_NO" id="FAX_NO" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="SIGN_B" id="SIGN_B" />
-                                        </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-brd-thick-b briggs-brd-thick-t briggs-sec-header briggs-sec-hdr-gray briggs-txt-b briggs-no-pad">
+                            <div class="col-lg-2 col-sm-2  text-center briggs-brd-thin-r">
+                                <label class="briggs-f-thick-md">      DATE </label>
+                            </div>
+                            <div class="col-lg-1 col-sm-1 briggs-brd-thin-r">
+                                <label class="briggs-f-thick-md"> TIME</label>
+                            </div>
+                            <div class="col-lg-9 col-sm-9  text-center ">
+                                <label class="briggs-f-thick-md">  ORDERS </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12   items-container briggs-no-pad">
+                            <div class="col-lg-2 col-sm-2 briggs-brd-thin-r   item briggs-no-pad">
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE1" id="DATE1" />
                                     </div>
                                 </div>
-                                <div class="col-lg-4  col-sm-4">
-                                    <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp">
-                                        <label class="xt-f-thick-md" for="DATE_SIGN_B"> DATE</label>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE2" id="DATE2" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE3" id="DATE3" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE4" id="DATE4" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE5" id="DATE5" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE6" id="DATE6" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE7" id="DATE7" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE8" id="DATE8" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE9" id="DATE9" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE10" id="DATE10" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE11" id="DATE11" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE12" id="DATE12" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE13" id="DATE13" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE14" id="DATE14" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE15" id="DATE15" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE16" id="DATE16" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE17" id="DATE17" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE18" id="DATE18" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-sm-1 briggs-brd-thin-r  briggs-no-pad item">
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME1" id="TIME1" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME2" id="TIME2" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME3" id="TIME3" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME4" id="TIME4" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME5" id="TIME5" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME6" id="TIME6" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME7" id="TIME7" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME8" id="TIME8" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME9" id="TIME9" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME10" id="TIME10" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME11" id="TIME11" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME12" id="TIME12" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME13" id="TIME13" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME14" id="TIME14" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME15" id="TIME15" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME16" id="TIME16" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME17" id="TIME17" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="TIME18" id="TIME18" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-sm-9  item  briggs-brd-thin-r briggs-no-pad">
 
-                                        <div class="col-lg-12 col-sm-12 briggs-xt-cntrl-grp briggs-xt-no-pad">
-                                            <input type="text" class="form-control briggs-xt-control" name="DATE_SIGN_B" id="DATE_SIGN_B" />
-                                        </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS1" id="ORDERS1" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS2" id="ORDERS2" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS3" id="ORDERS3" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS4" id="ORDERS4" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS5" id="ORDERS5" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS6" id="ORDERS6" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS7" id="ORDERS7" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS8" id="ORDERS8" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS9" id="ORDERS9" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS10" id="ORDERS10" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS11" id="ORDERS11" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS12" id="ORDERS12" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS13" id="ORDERS13" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS14" id="ORDERS14" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS15" id="ORDERS15" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS16" id="ORDERS16" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS17" id="ORDERS17" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 briggs-no-pad briggs-brd-thin-b">
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="ORDERS18" id="ORDERS18" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-
-                    <div class="col-lg-12  col-sm-12 briggs-xt-pg-footer">
-                        <div class="row briggs-xt-cont-row">
-                            <div class="col-lg-6 col-sm-6 briggs-xt-no-pad">
-                                <span class="briggs-xt-foot-fcode">Form 4187</span>
-                                <span class="briggs-xt-foot-cr">Rev. 11/09</span>
-                                <span class="briggs-xt-foot-cr">© BRIGGS, Des Moines, IA (800) 247-2343</span>
-                                <span class="briggs-xt-foot-cr briggs-xt-foot-cr2">Unauthorized copying or use violates copyright law. www.BriggsCorp.com PRINTED IN U.S.A.</span>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <label class="briggs-f-thick-md">Thank you. </label>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                            <div class="col-lg-3 col-sm-4 briggs-cntrl-grp ">
+                                <label class="briggs-f-thick-md" for="SIGN_A">Clinician Signature/Title</label>
                             </div>
-                            <div class="col-lg-2 col-sm-2 no-pad">
-                                <img src="../../Content/images/logo/briggs-logo.png" />
+                            <div class="col-lg-4 col-sm-3 briggs-cntrl-grp">
+                                <input type="text" class="form-control briggs-control" name="SIGN_A" id="SIGN_A" />
                             </div>
-                            <div class="col-lg-4 col-sm-4">
-                                <span class="briggs-xt-foot-fname">PHYSICIAN VERBAL ORDERS</span>
+                            <div class="col-lg-1 col-sm-1 briggs-cntrl-grp">
+                                <label class="briggs-f-thick-md">V.O.</label>
+                            </div>
+                            <div class="col-lg-1 col-sm-1 briggs-cntrl-grp ">
+                                <label class="briggs-f-thick-md" for="DATE_SIGN_A">Date</label>
+                            </div>
+                            <div class="col-lg-3 col-sm-2 briggs-cntrl-grp">
+                                <input type="text" class="form-control briggs-control" name="DATE_SIGN_A" id="DATE_SIGN_A" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-sec-header briggs-sec-hdr-gray briggs-sec-divider briggs-txt-b text-center">
+                            <label class="briggs-f-thick-md">Physician, please sign and return within 2 days.</label>
+                        </div>
+                    </div>
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-12 col-sm-12 briggs-sec-divider">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="col-lg-8 col-sm-8 briggs-brd-thin-r">
+                                <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="SIGN_B">PHYSICIAN SIGNATURE</label>
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="SIGN_B" id="SIGN_B" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-sm-4">
+                                <div class="col-lg-12 col-sm-12 briggs-cntrl-grp">
+                                    <label class="briggs-f-thick-md" for="DATE_SIGN_B"> DATE</label>
+                                    <div class="col-lg-12 col-sm-12 briggs-cntrl-grp briggs-no-pad">
+                                        <input type="text" class="form-control briggs-control" name="DATE_SIGN_B" id="DATE_SIGN_B" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+                <!--page ends here-->
+                <!--paging-->
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 briggs-pad-thick briggs-f-thick briggs-cntrl-grp text-center">
+                        --- Page 1 of 1 ---
+                    </div>
+                </div>
+                <!--footer starts here-->
+                <div class="col-lg-12  col-sm-12 briggs-pg-footer">
+                    <div class="row briggs-cont-row">
+                        <div class="col-lg-6 col-sm-6 briggs-no-pad">
+                            <span class="briggs-foot-fcode">Form 4187</span>
+                            <span class="briggs-foot-cr">Rev. 11/09</span>
+                            <span class="briggs-foot-cr">© BRIGGS, Des Moines, IA (800) 247-2343</span>
+                            <span class="briggs-foot-cr briggs-foot-cr2">Unauthorized copying or use violates copyright law. www.BriggsCorp.com PRINTED IN U.S.A.</span>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 no-pad">
+                            <img src="../../Content/images/logo/briggs-logo.png" alt="" />
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <span class="briggs-foot-fname">PHYSICIAN VERBAL ORDERS</span>
+                        </div>
+                    </div>
+                </div>
+                <!--footer ends  here-->
             </div>
         </div>
-        <input type="hidden" name="ACCOUNT_NAME" />
-        <input type="hidden" name="ACCOUNT_ADDRESS1" />
-        <input type="hidden" name="ACCOUNT_ADDRESS2" />
-        <input type="hidden" name="ACCOUNT_PHONE" />
-        <input type="hidden" name="FORM_UUID" />
-        <input type="hidden" name="FORM_NAME" />
-        <input type="hidden" name="FORM_REV" />
-    </form>
+    </div>
+    <!--form ends here-->
+    <!--your hidden fields comes here-->
+    <input type="hidden" name="ACCOUNT_NAME" />
+    <input type="hidden" name="ACCOUNT_ADDRESS1" />
+    <input type="hidden" name="ACCOUNT_ADDRESS2" />
+    <input type="hidden" name="ACCOUNT_PHONE" />
+    <input type="hidden" name="FORM_UUID" />
+    <input type="hidden" name="FORM_NAME" />
+    <input type="hidden" name="FORM_REV" />
 </body>
 </html>
