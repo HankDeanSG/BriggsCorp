@@ -1,0 +1,9 @@
+﻿.briggs-nonverbal-sec{
+    height:33px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .briggs-nonverbal-sec{
+    height:44px;
+}
+
+}
